@@ -460,6 +460,9 @@ a.accordion-toggle .doc_arrow {
 .w_custom_15{
   width: 15% !important;
 }
+.w_custom_12{
+  width: 12% !important;
+}
 .w_custom_11{
   width: 11% !important;
 }
@@ -468,6 +471,12 @@ a.accordion-toggle .doc_arrow {
 }
 .w_custom_10{
   width: 10% !important;
+}
+.w_custom_8{
+  width: 8% !important;
+}
+.w_custom_6{
+  width: 6% !important;
 }
 .row_innerBody{
   border-bottom: 1px solid #56a9ff;
