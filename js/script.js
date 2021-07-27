@@ -26,7 +26,12 @@ $(document).ready(function(){
   $(".close_popup").click(function(e){
     e.stopPropagation();
     e.preventDefault();
-    $(this).parent().parent(".action_popup").removeClass("active");
+    $(this).closest(".action_popup").removeClass("active");
+  })
+
+  $(".popup_level_2 .popup_body").click(function(e){
+    e.stopPropagation();
+    e.preventDefault();
   })
   
   $(".docs_mainwrap p, .info_table .accordion-toggle").click(function(e){
