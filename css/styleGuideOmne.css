@@ -473,7 +473,8 @@ body {
 .form_control.icon .icon_img {
   position: absolute;
   right: 10px;
-  top: 38%;
+  top: 50%
+  transform: translate(0, -50%);
 }
 .form_control.disabled{
   opacity: .5;
