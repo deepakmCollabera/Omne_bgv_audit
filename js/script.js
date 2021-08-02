@@ -22,11 +22,16 @@ $(document).ready(function(){
     e.preventDefault();
     $(this).children(".action_popup").toggleClass("active");
   });
+  $(".open_filter").click(function(e){
+    e.stopPropagation();
+    e.preventDefault();
+    $(this).siblings(".filter_wrap").toggleClass("active");
+  });
 
   $(".close_popup").click(function(e){
     e.stopPropagation();
     e.preventDefault();
-    $(this).closest(".action_popup").removeClass("active");
+    $(this).closest(".filter_wrap").removeClass("active");
   })
 
   $(".popup_level_2 .popup_body").click(function(e){
