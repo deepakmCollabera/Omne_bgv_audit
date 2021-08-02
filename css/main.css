@@ -476,6 +476,9 @@ a.accordion-toggle .doc_arrow {
 .w_custom_14{
   width: 14% !important;
 }
+.w_custom_17{
+  width: 17% !important;
+}
 .w_custom_15{
   width: 15% !important;
 }
@@ -496,6 +499,9 @@ a.accordion-toggle .doc_arrow {
 }
 .w_custom_6{
   width: 6% !important;
+}
+.w_custom_2{
+  width: 2% !important;
 }
 .row_innerBody{
   border-bottom: 1px solid #56a9ff;
@@ -521,6 +527,10 @@ a.accordion-toggle .doc_arrow {
   margin-bottom: 4px;
   display: inline-block;
   font-weight: 400;
+}
+.action_tag.not_initiated{
+  background-color: #9b9b9b;
+  color: #ffffff !important;
 }
 .rcs_body .custom_th{
   border-right: none;
@@ -829,4 +839,7 @@ a.accordion-toggle .doc_arrow {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #e7e7e7;
+}
+.filter_body .form_control.dropdown::after{
+  top: 52%;
 }
