@@ -161,7 +161,7 @@ body {
   margin-right: 2rem !important;
 }
 .mr_5 {
-  padding-right: 2.5rem !important;
+  margin-right: 2.5rem !important;
 }
 .mr_auto{
   margin-right: auto !important;
@@ -371,6 +371,10 @@ body {
 /* bg colors */
 .no_bg {
   background-color: transparent !important;
+}
+
+.cursor_pointer{
+  cursor: pointer;
 }
 
 /* border colors */
