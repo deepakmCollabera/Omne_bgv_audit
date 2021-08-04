@@ -859,6 +859,7 @@ a.accordion-toggle .doc_arrow {
   padding: 2rem;
   box-shadow: 0 2px 13px 0 rgb(0 0 0 / 20%);
   transition: all .5s;
+  overflow-y: auto;
 }
 .bgv_check_det.active{
   right: 0;
