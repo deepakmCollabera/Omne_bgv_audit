@@ -1,4 +1,13 @@
 $(document).ready(function(){
+
+  setTimeout(function(){
+    $(".bgv_check_det").addClass("active");
+   }, 1000);
+
+   $(".close_check_details").click(function(){
+     $(".bgv_check_det").removeClass("active");
+   })
+
   $(".modal_open").click(function(e){
     e.stopPropagation();
     e.preventDefault();
