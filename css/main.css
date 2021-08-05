@@ -398,6 +398,9 @@ a.accordion-toggle .doc_arrow {
   padding: .8rem;
   border: none;
 }
+.tableTop .custom_th{
+  color: #56a9ff;
+}
 .custom_tag{
   background-color: #ffffff;
   color: #4a4a4a;
@@ -909,4 +912,10 @@ a.accordion-toggle .doc_arrow {
 }
 .bgv_check_det .table_wrap .in_progress{
   color: #d0021b;
+}
+
+/* consultants detail */
+.tableTop .form_control.icon .icon_img{
+  top: 50%;
+  transform: translate(0, -50%);
 }

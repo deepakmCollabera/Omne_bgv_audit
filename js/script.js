@@ -41,6 +41,7 @@ $(document).ready(function(){
     e.stopPropagation();
     e.preventDefault();
     $(this).closest(".filter_wrap").removeClass("active");
+    $(this).closest(".action_popup").removeClass("active");
   })
 
   $(".popup_level_2 .popup_body").click(function(e){
