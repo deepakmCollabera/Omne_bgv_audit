@@ -44,7 +44,7 @@ $(document).ready(function(){
     $(this).closest(".action_popup").removeClass("active");
   })
 
-  $(".popup_level_2 .popup_body").click(function(e){
+  $(".popup_body, .popup_header").click(function(e){
     e.stopPropagation();
     e.preventDefault();
   })
