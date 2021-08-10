@@ -862,3 +862,43 @@ a.accordion-toggle .doc_arrow {
   top: 50%;
   transform: translate(0, -50%);
 }
+
+/* PO extension  */
+.topdetails_head h4{
+  border-bottom: 1px solid #d8d8d8;
+}
+.topdetails_head h4 .custom_badge{
+  text-transform: capitalize;
+}
+.po_candidate .rcs_search > input{
+  width: 92%;
+}
+.filter_wrap.table_columns{
+  width: 200px;
+  right: 0;
+}
+.table_columns .form_control label{
+  text-transform: capitalize;
+}
+.table_columns .form_control input{
+  height: 16px;
+}
+.po_candidate .table_wrap .custom_tr:nth-child(2) .custom_th{
+  padding: 8px 4px;
+}
+.po_candidate .custom_tag{
+  padding: .2rem .5rem;
+}
+.po_candidate .custom_th{
+  color: #56a9ff;
+  padding: 8px 2px;
+}
+.po_candidate .table_wrap > .custom_tr:first-child, .table_wrap > .custom_tr:nth-child(2){
+  background-color: #f2f5fa;
+}
+.po_candidate .table_wrap .custom_td{
+  color: #4a4a4a;
+}
+.po_candidate .table_wrap .custom_td > span{
+  color: #9b9b9b;
+}

@@ -372,6 +372,9 @@ body {
 .no_bg {
   background-color: transparent !important;
 }
+.bg_primary{
+  background-color: var(--primary-color) !important;
+}
 
 .cursor_pointer{
   cursor: pointer;
