@@ -1,0 +1,901 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document List - Send Offer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="./css/styleGuideOmne.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <!-- top omne bar -->
+    <div class="omne_bar">
+        <div class="custom_container">
+            <img src="./images/omne_with_tagline_rgb.png" title="omne_with_tagline_rgb" />
+        </div>
+    </div>
+    <!-- top omne bar -->
+
+    <!-- main nav bar -->
+    <div class="nav_menu">
+        <div class="custom_container">
+            <div class="row">
+                <div class="side_menu">
+                    <img src="./images/icons/ic-menu.svg" alt="ic-menu" />
+                </div>
+                <div class="tab_title text_18 font_600 p_3 ml_4 h_100">
+                    PO Extension
+                </div>
+                <div class="page_title text_16 font_500 p_3">
+                    Candidate PO Details
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-tools.svg" alt="ic-tools" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-notification.svg" alt="ic-notification" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-login-profile-image.png" alt="ic-login-profile-image" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main nav bar -->
+
+    <!-- sidebar_left -->
+    <div class="leftSideBar pt_4 pb_4 pl_2 pr_2">
+        <div class="sideNavItems">
+            <ul>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14"><span class="pr_4"><img
+                                src="./images/icons/ic-dashboard.svg" alt="ic-dashboard" /></span>
+                        <span class="text_hid">Dashnboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14 active"><span class="pr_4"><img
+                                src="./images/icons/ic-po-extension-white.svg" alt="ic-po-extension-white" /></span>
+                        <span class="text_hid">Green Signal</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14"><span class="pr_4"><img
+                                src="./images/icons/ic-hire-wf.svg" alt="ic-hire-wf" /></span>
+                        <span class="text_hid"> Hire WF</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- sidebar_left -->
+
+    <!-- main wrapper -->
+    <div class="main_wrapper">
+        <div class="po_tabs">
+            <ul class="ml_auto">
+                <li class="active">
+                    <a href="">Simple Po</a>
+                </li>
+                <li>
+                    <a href="">New Po Same Rate</a>
+                </li>
+                <li>
+                    <a href="">Same Po New Rate</a>
+                </li>
+                <li>
+                    <a href="">New Po New Rate</a>
+                </li>
+            </ul>
+            <div class="clock_history ml_auto">
+                <img src="./images/icons/ic-clock-history.svg" alt="ic-clock-history" />
+            </div>
+        </div>
+        <div class="po_tabs_desc mt_5">
+            <div class="po_tabs_side_info">
+                <a data-toggle="collapse" href="#employee_info" class="accordion-toggle">
+                    <h4 class="text_12 font_500 mt_0 mb_0 white_text_color">
+                        Employee Info
+                    </h4>
+                    <span class="doc_arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12"
+                            height="8" viewBox="0 0 12 8">
+                            <defs>
+                                <path id="cvi3r4kbpa" d="M10.59 0L6 4.58 1.41 0 0 1.41 6 7.41 12 1.41z" />
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <g
+                                                        transform="translate(-658 -602) translate(24 541) translate(24 53) translate(604) translate(6 8) translate(0 .59)">
+                                                        <use fill="#FFF" transform="rotate(180 6 3.705)"
+                                                            xlink:href="#cvi3r4kbpa" />
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </span>
+                </a>
+                <div class="accordion-body collapse in mt_3" id="employee_info">
+                    <h4 class="text_16 font_600 black_color_one m_0">
+                        Carmelita Marsham
+                    </h4>
+                    <small class="text_12 font_400 black_color_one mb_0">Hourly Employee</small>
+                    <h6 class="text_14 font_500 primary_text_color mt_3">
+                        Candidate Details
+                    </h6>
+                    <div class="sod_table keyValTable mt_2">
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Collabera ID</div>
+                            <div class="keyVal_val pb_1">12345</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Type</div>
+                            <div class="keyVal_val pb_1">Simple Ext.</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Status</div>
+                            <div class="keyVal_val pb_1">Active</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Project End date</div>
+                            <div class="keyVal_val pb_1">02/01/2019</div>
+                        </div>
+                    </div>
+                </div>
+                <a data-toggle="collapse" href="#solomon_project" class="accordion-toggle mt_4">
+                    <h4 class="text_12 font_500 mt_0 mb_0 white_text_color">
+                        Solomon Project Info
+                    </h4>
+                    <span class="doc_arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12"
+                            height="8" viewBox="0 0 12 8">
+                            <defs>
+                                <path id="cvi3r4kbpa" d="M10.59 0L6 4.58 1.41 0 0 1.41 6 7.41 12 1.41z" />
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <g
+                                                        transform="translate(-658 -602) translate(24 541) translate(24 53) translate(604) translate(6 8) translate(0 .59)">
+                                                        <use fill="#FFF" transform="rotate(180 6 3.705)"
+                                                            xlink:href="#cvi3r4kbpa" />
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </span>
+                </a>
+                <div class="accordion-body collapse in mt_3" id="solomon_project">
+                    <h6 class="text_14 font_500 primary_text_color mt_3">
+                        Project Name
+                    </h6>
+                    <div class="sod_table keyValTable mt_2">
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Start</div>
+                            <div class="keyVal_val pb_1">02/04/2020</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">End Date</div>
+                            <div class="keyVal_val pb_1">03/05/2020</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Client</div>
+                            <div class="keyVal_val pb_1">IBM</div>
+                        </div>
+                    </div>
+                    <h6 class="
+                text_14
+                font_500
+                primary_text_color
+                mt_2
+                pt_2
+                border_top_light
+              ">
+                        Subcontract
+                    </h6>
+                    <div class="sod_table keyValTable mt_2">
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Start</div>
+                            <div class="keyVal_val pb_1">02/04/2020</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">End Date</div>
+                            <div class="keyVal_val pb_1">03/05/2020</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Pay ST</div>
+                            <div class="keyVal_val pb_1">$00</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Pay OT</div>
+                            <div class="keyVal_val pb_1">$00</div>
+                        </div>
+                    </div>
+                </div>
+                <a data-toggle="collapse" href="#task_info" class="accordion-toggle mt_4">
+                    <h4 class="text_12 font_500 mt_0 mb_0 white_text_color">
+                        Task Info
+                    </h4>
+                    <span class="doc_arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12"
+                            height="8" viewBox="0 0 12 8">
+                            <defs>
+                                <path id="cvi3r4kbpa" d="M10.59 0L6 4.58 1.41 0 0 1.41 6 7.41 12 1.41z" />
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <g
+                                                        transform="translate(-658 -602) translate(24 541) translate(24 53) translate(604) translate(6 8) translate(0 .59)">
+                                                        <use fill="#FFF" transform="rotate(180 6 3.705)"
+                                                            xlink:href="#cvi3r4kbpa" />
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </span>
+                </a>
+                <div class="accordion-body collapse in mt_3" id="task_info">
+                    <h6 class="text_14 font_500 primary_text_color mt_3">ST on Site</h6>
+                    <div class="sod_table keyValTable mt_2">
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Start</div>
+                            <div class="keyVal_val pb_1">02/04/2020</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">End Date</div>
+                            <div class="keyVal_val pb_1">03/05/2020</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Budget Test</div>
+                            <div class="keyVal_val pb_1"><input type="checkbox" /></div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Labour Acct</div>
+                            <div class="keyVal_val pb_1">500010</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Allocate</div>
+                            <div class="keyVal_val pb_1"><input type="checkbox" /></div>
+                        </div>
+                    </div>
+                    <h6 class="
+                text_14
+                font_500
+                primary_text_color
+                mt_2
+                pt_2
+                border_top_light
+              ">
+                        Overtime on Site
+                    </h6>
+                    <div class="sod_table keyValTable mt_2">
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Start</div>
+                            <div class="keyVal_val pb_1">02/04/2020</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">End Date</div>
+                            <div class="keyVal_val pb_1">03/05/2020</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Budget Test</div>
+                            <div class="keyVal_val pb_1"><input type="checkbox" /></div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Labour Acct</div>
+                            <div class="keyVal_val pb_1">500010</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Allocate</div>
+                            <div class="keyVal_val pb_1"><input type="checkbox" /></div>
+                        </div>
+                    </div>
+                    <h6 class="
+                text_14
+                font_500
+                primary_text_color
+                mt_2
+                pt_2
+                border_top_light
+              ">
+                        Overtime off Site
+                    </h6>
+                    <div class="sod_table keyValTable mt_2">
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Start</div>
+                            <div class="keyVal_val pb_1">02/04/2020</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">End Date</div>
+                            <div class="keyVal_val pb_1">03/05/2020</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Budget Test</div>
+                            <div class="keyVal_val pb_1"><input type="checkbox" /></div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Labour Acct</div>
+                            <div class="keyVal_val pb_1">500010</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Allocate</div>
+                            <div class="keyVal_val pb_1"><input type="checkbox" /></div>
+                        </div>
+                    </div>
+                    <h6 class="
+                text_14
+                font_500
+                primary_text_color
+                mt_2
+                pt_2
+                border_top_light
+              ">
+                        Expenses
+                    </h6>
+                    <div class="sod_table keyValTable mt_2 mb_5">
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Start</div>
+                            <div class="keyVal_val pb_1">02/04/2020</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">End Date</div>
+                            <div class="keyVal_val pb_1">03/05/2020</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Budget Test</div>
+                            <div class="keyVal_val pb_1"><input type="checkbox" /></div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Labour Acct</div>
+                            <div class="keyVal_val pb_1">500010</div>
+                        </div>
+                        <div class="keyValRow">
+                            <div class="keyVal_key pb_1">Allocate</div>
+                            <div class="keyVal_val pb_1"><input type="checkbox" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="po_tabs_main_desc">
+                <div class="po_tabs_details_wrap">
+                    <a data-toggle="collapse" href="#po_details_wrap" class="accordion-toggle pt_3 pb_3 pl_4 px_4">
+                        <h4 class="text_16 font_500 mt_0 mb_0 primary_text_color">
+                            PO Details
+                        </h4>
+                        <span class="doc_arrow color_black">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="12" height="8" viewBox="0 0 12 8">
+                                <defs>
+                                    <path id="cvi3r4kbpa" d="M10.59 0L6 4.58 1.41 0 0 1.41 6 7.41 12 1.41z" />
+                                </defs>
+                                <g fill="none" fill-rule="evenodd">
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <g>
+                                                        <g
+                                                            transform="translate(-658 -602) translate(24 541) translate(24 53) translate(604) translate(6 8) translate(0 .59)">
+                                                            <use fill="#FFF" transform="rotate(180 6 3.705)"
+                                                                xlink:href="#cvi3r4kbpa" />
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                    <div class="accordion-body collapse in pt_3 pb_3 pl_4 px_4 border_top_light" id="po_details_wrap">
+                        <div class="row">
+                            <div class="col-sm-6 po_main_left_wrap">
+                                <div class="sod_table keyValTable">
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5"></div>
+                                        <div class="keyVal_val pb_5">
+                                            <span class="
+                              custom_tag
+                              text_14
+                              font_600
+                              white_text_color
+                              bg_primary
+                              py_1 px_2
+                            ">Active</span>
+                                        </div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Client</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Wells Fargo</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">PO#</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">2232</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Start Date</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">04/01/2021</div>
+                                    </div>
+                                    <div class="keyValRow height_input">
+                                        <div class="keyVal_key pb_5 text_14">End Date <span class="required">*</span>
+                                        </div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">02/01/2019</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Bill ST</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">$ 75 Per Month</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Bill OT</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">$ 10 Per Year</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Is OT Allowed</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">
+                                            <div class="switch-field">
+                                                <input type="radio" id="no_3" name="switch-three" value="no" />
+                                                <label for="no_3" class="font_400 text_10">No</label>
+                                                <input type="radio" id="yes_4" name="switch-three" value="yes"
+                                                    checked />
+                                                <label for="yes_4" class="font_400 text_10">Yes</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Is DT Allowed</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">
+                                            <div class="switch-field">
+                                                <input type="radio" id="no_4" name="switch-four" value="no" />
+                                                <label for="no_4" class="font_400 text_10">No</label>
+                                                <input type="radio" id="yes_4" name="switch-four" value="yes" checked />
+                                                <label for="yes_4" class="font_400 text_10">Yes</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Onsite ST Amount</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Onsite ST Amount</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Onsite OT Amount</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Onsite OT Amount</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Offsite ST Amount</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Offsite ST Amount</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Offsite OT Amount</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Offsite OT Amount</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Ignore Budget</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Ignore Budget</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">S ID</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">S ID</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Extension Status <span
+                                                class="required">*</span></div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Extension Status</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">PO Received Date <span
+                                                class="required">*</span></div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">PO Received Date</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 po_main_right_wrap">
+                                <span class="
+                      custom_tag
+                      text_14
+                      font_600
+                      white_text_color
+                      bg_orange
+                      py_1 px_2
+                      mb_4
+                    ">New</span>
+                                <div class="font_500 text_14 pb_5 pt_4">Wells Fargo</div>
+                                <div class="font_500 text_14 pb_5">2232</div>
+                                <div class="font_500 text_14 pb_5">04/01/2021</div>
+                                <div class="font_500 text_14 pb_5">
+                                    <div class="form_control required icon p_0 height_input">
+                                        <input type="text" id="date" class="text_12 error_border"
+                                            placeholder="04/30/2021">
+                                        <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                alt="calendar"></span>
+                                        <span class="red_error_color text_10 font_200">Please fill out this field</span>
+                                        <div class="rejected_info open_popup"><img src="./images/icons/ic-rejected-info-copy-218.svg" alt="ic-rejected-info-copy" />
+                                            <div class="action_popup popup_level_2">
+                                                <div class="popup_header">
+                                                  <div class="row w_100 m_0">
+                                                    <div class="col-sm-6 p_3">
+                                                      <h6>Audit</h6>
+                                                    </div>
+                                                    <div class="col-sm-6 d-flex p_3">
+                                                      <h6>Ops</h6>
+                                                      <span class="close_popup"><img src="./images/icons/ic-popup-close.svg" alt="ic-popup-close"></span>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="popup_body">
+                                                  <div class="row">
+                                                      <div class="col-sm-6 pt_2">
+                                                          <div class="row">
+                                                            <div class="col-sm-6 col_right_offset_6 rej_req_info">
+                                                              <p>Reason</p>
+                                                              <small>Rejected</small>
+                                                            </div>
+                                                            <div class="col-sm-12 rej_req_info">
+                                                              <p>Notes</p>
+                                                              <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</small>
+                                                            </div>
+                                                            <div class="col-sm-12 pb_2">
+                                                              <span class="grey_color_one text_9 font_100">pradeep.singh</span> <span class="pl_4 grey_color_one text_9 font_100">03/15/2021  ●  17:45 PM</span>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                    <div class="col-sm-6 pl_2">
+                                                      <div class="row">
+                                                        <div class="col-sm-12">
+                                                          <div class="form_control dropdown required">
+                                                            <label for="">Status <span>*</span></label>
+                                                            <select name="" id="">
+                                                              <option value="">Re-Submit</option>
+                                                              <option value="">Reject</option>
+                                                            </select>
+                                                          </div>
+                                                          <div class="form_control required">
+                                                            <label for="">Notes <span>*</span></label>
+                                                            <textarea name="" id="" class="text_10">Ops Comments</textarea>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="col-sm-12 text_right">
+                                                      <button class="secondary_btn text_12 font_400 ml_2 no_border grey_color_one">Cancel</button>
+                                                      <button class="secondary_btn text_12 font_400 ml_2 no_border">Submit</button>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_5">$ 75 Per Month</div>
+                                <div class="font_500 text_14 pb_5">$ 10 Per Year</div>
+                                <div class="font_500 text_14 pb_5">
+                                    <div class="switch-field">
+                                        <input type="radio" id="no_2" name="switch-one" value="no" />
+                                        <label for="no_2" class="font_400 text_10">No</label>
+                                        <input type="radio" id="yes_2" name="switch-one" value="yes" checked />
+                                        <label for="yes_2" class="font_400 text_10">Yes</label>
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_5">
+                                    <div class="switch-field">
+                                        <input type="radio" id="no_1" name="switch-two" value="no" />
+                                        <label for="no_1" class="font_400 text_10">No</label>
+                                        <input type="radio" id="yes_1" name="switch-two" value="yes" checked />
+                                        <label for="yes_1" class="font_400 text_10">Yes</label>
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_5">
+                                    <div class="form_control p_0  ">
+                                        <input type="text" class="text_12" placeholder="Onsite ST Amount">
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_5">
+                                    <div class="form_control p_0  ">
+                                        <input type="text" class="text_12" placeholder="Onsite OT Amount">
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_5">
+                                    <div class="form_control p_0  ">
+                                        <input type="text" class="text_12" placeholder="Offsite ST Amount">
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_5">
+                                    <div class="form_control p_0  ">
+                                        <input type="text" class="text_12" placeholder="Offsite OT Amount">
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_5">
+                                    <div class="form_control p_0  ">
+                                        <input type="text" class="text_12" placeholder="Ignore Budget">
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_5">
+                                    <div class="form_control p_0  ">
+                                        <input type="text" class="text_12" placeholder="S ID">
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_5">
+                                    <div class="form_control p_0  ">
+                                        <select name="" id="" class="error_border">
+                                            <option value="">Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_5">
+                                    <div class="form_control required icon p_0 height_input ">
+                                        <input type="text" class="text_12 error_border" placeholder="PO Received Date">
+                                        <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                alt="calendar"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="po_tabs_details_wrap mt_3">
+                    <a data-toggle="collapse" href="#po_details_wrap" class="accordion-toggle pt_3 pb_3 pl_4 px_4">
+                        <h4 class="text_16 font_500 mt_0 mb_0 primary_text_color">
+                            Manager Info
+                        </h4>
+                        <span class="doc_arrow color_black">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="12" height="8" viewBox="0 0 12 8">
+                                <defs>
+                                    <path id="cvi3r4kbpa" d="M10.59 0L6 4.58 1.41 0 0 1.41 6 7.41 12 1.41z" />
+                                </defs>
+                                <g fill="none" fill-rule="evenodd">
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <g>
+                                                        <g
+                                                            transform="translate(-658 -602) translate(24 541) translate(24 53) translate(604) translate(6 8) translate(0 .59)">
+                                                            <use fill="#FFF" transform="rotate(180 6 3.705)"
+                                                                xlink:href="#cvi3r4kbpa" />
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                    <div class="accordion-body collapse in pt_3 pb_3 pl_4 px_4 border_top_light" id="po_details_wrap">
+                        <div class="row">
+                            <div class="col-sm-6 po_main_left_wrap">
+                                <div class="sod_table keyValTable">
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5"></div>
+                                        <div class="keyVal_val pb_5">
+                                            <span class="
+                              custom_tag
+                              text_14
+                              font_600
+                              white_text_color
+                              bg_primary
+                              py_1 px_2
+                            ">Active</span>
+                                        </div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Name <span class="required">*</span></div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Pradeep Singh</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Phone <span class="required">*</span></div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">0 (000) 000 0000</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Email <span class="required">*</span></div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">pradeep.singh@collabera.com
+                                        </div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Effective Date <span
+                                                class="required">*</span></div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">04/30/2021</div>
+                                    </div>
+                                </div>
+                                <div class="form_control d-flex align-items-center w_100 pt_4 mt_4">
+                                    <input type="checkbox" name="" id="new_manager" class="w_fit_content mr_2" />
+                                    <label for="new_manager" class="text_12 mb_0">New manager info same as active</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 po_main_right_wrap">
+                                <span class="
+                      custom_tag
+                      text_14
+                      font_600
+                      white_text_color
+                      bg_orange
+                      py_1 px_2
+                      mb_4
+                    ">New</span>
+
+                                <div class="font_500 text_14 pb_4 pt_4">
+                                    <div class="form_control p_0  ">
+                                        <select name="" id="" class="error_border">
+                                            <option value="">Name</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_4">
+                                    <div class="form_control p_0  ">
+                                        <input type="text" class="text_12 error_border" placeholder="Phone">
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_4">
+                                    <div class="form_control p_0  ">
+                                        <input type="text" class="text_12 error_border" placeholder="Email ID">
+                                    </div>
+                                </div>
+                                <div class="font_500 text_14 pb_4">
+                                    <div class="form_control required icon p_0 height_input ">
+                                        <input type="text" class="text_12 error_border" placeholder="PO Received Date">
+                                        <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                alt="calendar"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="po_proj_notes mt_3">
+                    <div class="po_tabs_details_wrap">
+                        <a data-toggle="collapse" href="#po_proj_notes" class="accordion-toggle pt_3 pb_3 pl_4 px_4">
+                            <h4 class="text_16 font_500 mt_0 mb_0 primary_text_color">
+                                Priority & Project Notes
+                            </h4>
+                            <span class="doc_arrow color_black">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="12" height="8" viewBox="0 0 12 8">
+                                    <defs>
+                                        <path id="cvi3r4kbpa" d="M10.59 0L6 4.58 1.41 0 0 1.41 6 7.41 12 1.41z" />
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <g>
+                                                        <g>
+                                                            <g
+                                                                transform="translate(-658 -602) translate(24 541) translate(24 53) translate(604) translate(6 8) translate(0 .59)">
+                                                                <use fill="#FFF" transform="rotate(180 6 3.705)"
+                                                                    xlink:href="#cvi3r4kbpa" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                        <div class="accordion-body collapse in pt_3 pb_3 pl_4 px_4 border_top_light" id="po_proj_notes">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form_control">
+                                        <label for="">Solomon Inv Notes</label>
+                                        <input type="text" placeholder="Enter Solomon Inv Notes">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form_control">
+                                        <label for="">EHRIS Project Notes</label>
+                                        <input type="text" placeholder="Enter Project Notes">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form_control">
+                                        <label for="">Ops Remarks/Po Extention Notes</label>
+                                        <input type="text" placeholder="Enter Remarks">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form_control">
+                                        <label for="">Mark to move for Billing</label>
+                                        <div class="row">
+                                            <div class="radio_group col-sm-3 d-flex align-items-center">
+                                                <input type="radio" name="billing" id="billing_yes">
+                                                <label for="billing_yes">Yes</label>
+                                            </div>
+                                            <div class="radio_group col-sm-4 d-flex align-items-center">
+                                                <input type="radio" name="billing" id="billing_no">
+                                                <label for="billing_no">No</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form_control">
+                                        <label for="">Priority</label>
+                                        <div class="row">
+                                            <div class="radio_group col-sm-3 d-flex align-items-center">
+                                                <input type="radio" name="billing" id="priority_yes">
+                                                <label for="priority_yes">Yes</label>
+                                            </div>
+                                            <div class="radio_group col-sm-4 d-flex align-items-center">
+                                                <input type="radio" name="priority" id="priority_no">
+                                                <label for="priority_no">No</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="attach_files mt_3">
+                                        <label for="">
+                                            <img src="./images/icons/ic-upload-document.svg" alt="ic-upload-document"
+                                                class="mr_1" />
+                                            Upload PO <span class="required">*</span>
+                                            <input type="file">
+                                        </label>
+                                        <div class="files_wrap">
+                                            <div class="text_12 p_1">PO-WellsFargo-Carmelitamarsham <span
+                                                    class="ml_2"><img src="./images/icons/ic-remove-copy-11.svg"
+                                                        alt="ic-remove-copy" /></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="button_wrap text_right py_4">
+            <button class="secondary_btn mr_2">Save As Draft</button>
+            <button class="primary_btn">Submit</button>
+        </div>
+        <!-- main wrapper -->
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+<script src="./js/script.js"></script>
+
+</html>

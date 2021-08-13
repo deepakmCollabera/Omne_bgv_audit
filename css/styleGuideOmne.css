@@ -12,7 +12,7 @@ body {
   --grey-one: #9b9b9b;
   --success-bg: #13b600;
   --grey-two: #a9a9a9;
-  --red-eror: #ef4949;
+  --red-eror: #d0021b;
   --orange-warning: #FF9048;
 }
 /* height and width */
@@ -21,6 +21,9 @@ body {
 }
 .w_100{
   width: 100%;
+}
+.w_fit_content{
+  width: fit-content !important;
 }
 /* height and width */
 
@@ -375,6 +378,9 @@ body {
 .bg_primary{
   background-color: var(--primary-color) !important;
 }
+.bg_orange{
+  background-color: #ff8320 !important;
+}
 
 .cursor_pointer{
   cursor: pointer;
@@ -415,6 +421,9 @@ body {
 /* color */
 .primary_text_color{
   color: #56a9ff !important;
+}
+.white_text_color{
+  color: #ffffff !important;
 }
 /* buttons */
 .primary_btn {
@@ -461,7 +470,7 @@ body {
   color: #d0021b;
   font-size: 16px;
 }
-.form_control input {
+.form_control input, .form_control select {
   width: 100%;
   display: block;
   border-radius: 4px;
