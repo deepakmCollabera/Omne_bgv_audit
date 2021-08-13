@@ -1007,6 +1007,10 @@ a.accordion-toggle .doc_arrow {
 .po_main_left_wrap {
   border-right: 1px solid #9b9b9b;
 }
+.po_main_left_wrap .keyValRow .keyVal_key{
+  color: #46484b;
+  text-transform: uppercase;
+}
 .po_main_right_wrap {
   padding-left: 5rem;
 }
