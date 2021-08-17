@@ -1,0 +1,280 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document List - Send Offer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./css/styleGuideOmne.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- top omne bar -->
+    <div class="omne_bar">
+      <div class="custom_container">
+        <img
+          src="./images/omne_with_tagline_rgb.png"
+          title="omne_with_tagline_rgb"
+        />
+      </div>
+    </div>
+    <!-- top omne bar -->
+
+    <!-- main nav bar -->
+    <div class="nav_menu">
+      <div class="custom_container">
+        <div class="row">
+          <div class="side_menu">
+            <img src="./images/icons/ic-menu.svg" alt="ic-menu" />
+          </div>
+          <div class="tab_title text_18 font_600 p_3 ml_4 h_100">
+            PO Extension
+          </div>
+          <div class="page_title text_16 font_500 p_3">Dashboard</div>
+          <div class="nav-items">
+            <ul>
+              <li>
+                <a href="">
+                  <img src="./images/icons/ic-tools.svg" alt="ic-tools" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/icons/ic-notification.svg"
+                    alt="ic-notification"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/icons/ic-login-profile-image.png"
+                    alt="ic-login-profile-image"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main nav bar -->
+
+    <!-- sidebar_left -->
+    <div class="leftSideBar pt_4 pb_4 pl_2 pr_2">
+        <div class="sideNavItems">
+            <ul>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14"><span class="pr_4"><img
+                                src="./images/icons/ic-dashboard.svg" alt="ic-dashboard" /></span>
+                        <span class="text_hid">Dashnboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14 active"><span class="pr_4"><img
+                                src="./images/icons/ic-po-extension-white.svg" alt="ic-po-extension-white" /></span>
+                        <span class="text_hid">Green Signal</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14"><span class="pr_4"><img
+                                src="./images/icons/ic-hire-wf.svg" alt="ic-hire-wf" /></span>
+                        <span class="text_hid"> Hire WF</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- sidebar_left -->
+
+    <!-- main wrapper -->
+    <div class="main_wrapper">
+      <div class="status_overview p_3">
+        <a
+          data-toggle="collapse"
+          href="#statusOverview"
+          class="accordion-toggle d-flex align-items-center"
+        >
+          <h4 class="text_16 font_600 mt_0 mb_0 primary_text_color">
+            Status Overview
+          </h4>
+          <div class="form_control required icon p_0 ml_3 w_custom_20">
+            <input
+              type="text"
+              id="date"
+              class="text_12"
+              value="06/02/2021 - 06/08/2021"
+            />
+            <span class="icon_img"
+              ><img src="./images/icons/ic-calendar.svg" alt="calendar"
+            /></span>
+          </div>
+          <span class="doc_arrow">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="12"
+              height="8"
+              viewBox="0 0 12 8"
+            >
+              <defs>
+                <path
+                  id="cvi3r4kbpa"
+                  d="M10.59 0L6 4.58 1.41 0 0 1.41 6 7.41 12 1.41z"
+                />
+              </defs>
+              <g fill="none" fill-rule="evenodd">
+                <g>
+                  <g>
+                    <g>
+                      <g>
+                        <g>
+                          <g
+                            transform="translate(-658 -602) translate(24 541) translate(24 53) translate(604) translate(6 8) translate(0 .59)"
+                          >
+                            <use
+                              fill="#FFF"
+                              transform="rotate(180 6 3.705)"
+                              xlink:href="#cvi3r4kbpa"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+        </a>
+        <div class="accordion-body collapse in" id="statusOverview">
+          <div class="statusOverviewBody row mt_4">
+                <div class="col-sm-2">
+                    <div class="status_box">
+                        <p class="text_16 black_color_one mb_1">Reactive PO</p>
+                        <small class="text_12 black_color_one">(Expired)</small>
+                        <h4 class="text_24 mt_4 mb_0">100</h4>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="status_box yellow_box">
+                        <p class="text_16 black_color_one mb_1">Termed Cases PO</p>
+                        <small class="text_12 black_color_one">(Expired)</small>
+                        <h4 class="text_24 mt_4 mb_0">40</h4>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="status_box blue_box">
+                        <p class="text_16 black_color_one mb_1">Proactive PO</p>
+                        <small class="text_12 black_color_one">(Expiring in 30 Days)</small>
+                        <h4 class="text_24 mt_4 mb_0">200</h4>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="status_box green_box">
+                        <p class="text_16 black_color_one mb_1">Future Extension</p>
+                        <small class="text_12 black_color_one">(30 - 60 Days)</small>
+                        <h4 class="text_24 mt_4 mb_0">100</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="border_light border_radius_4">
+                        <img src="./images/po_extention_graph.png" alt="po_extention_graph" />
+                    </div>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_body_wrap mt_3">
+          <div class="row">
+              <div class="col-sm-4 box_custom">
+                <div class="bottom_status_wrap">
+                   <div class="bottom_staus_wrap_head p_2">
+                        <h4 class="text_16 font_600 m_0 primary_color">Operations</h4>
+                   </div>
+                   <div class="bottom_status_wrap_body p_2">
+                       <div class="inner_status_bar">
+                           <p class="text_14 black_color_one mb_0">Approved PO</p>
+                           <h4 class="text_18 m_0 ml_auto blue_box">75</h4>
+                       </div>
+                       <div class="inner_status_bar mt_2">
+                        <p class="text_14 black_color_one mb_0">Rejected PO</p>
+                        <h4 class="text_18 m_0 ml_auto red_box">20</h4>
+                    </div>
+                    <div class="inner_status_bar mt_2">
+                        <p class="text_14 black_color_one mb_0">Rejected Project Changes</p>
+                        <h4 class="text_18 m_0 ml_auto red_box">100</h4>
+                    </div>
+                   </div>
+                </div>
+              </div>
+              <div class="col-sm-4 box_custom">
+                <div class="bottom_status_wrap">
+                   <div class="bottom_staus_wrap_head p_2">
+                        <h4 class="text_16 font_600 m_0 primary_color">Audit</h4>
+                   </div>
+                   <div class="bottom_status_wrap_body p_2">
+                       <div class="inner_status_bar">
+                           <p class="text_14 grey_color_one mb_0 ">Assigned</p>
+                           <h4 class="text_18 m_0 ml_auto grey_box">75</h4>
+                       </div>
+                       <div class="inner_status_bar mt_2">
+                        <p class="text_14 grey_color_one mb_0">Reassigned</p>
+                        <h4 class="text_18 m_0 ml_auto grey_box">20</h4>
+                    </div>
+                    <div class="inner_status_bar mt_2">
+                        <p class="text_14 grey_color_one mb_0">Project Changes Assigned</p>
+                        <h4 class="text_18 m_0 ml_auto grey_box">45</h4>
+                    </div>
+                    <div class="inner_status_bar mt_2">
+                        <p class="text_14 grey_color_one mb_0">Project Changes Reassigned</p>
+                        <h4 class="text_18 m_0 ml_auto grey_box">20</h4>
+                    </div>
+                   </div>
+                </div>
+              </div>
+              <div class="col-sm-4 box_custom">
+                <div class="bottom_status_wrap">
+                   <div class="bottom_staus_wrap_head p_2">
+                        <h4 class="text_16 font_600 m_0 primary_color">Overall</h4>
+                   </div>
+                   <div class="bottom_status_wrap_body p_2">
+                       <div class="inner_status_bar">
+                           <p class="text_14 grey_color_one mb_0 ">Approved PO</p>
+                           <h4 class="text_18 m_0 ml_auto blue_box">75</h4>
+                       </div>
+                       <div class="inner_status_bar mt_2">
+                        <p class="text_14 grey_color_one mb_0">In Queue</p>
+                        <h4 class="text_18 m_0 ml_auto yellow_box">20</h4>
+                    </div>
+                    <div class="inner_status_bar mt_2">
+                        <p class="text_14 grey_color_one mb_0">PO Moved to Billing</p>
+                        <h4 class="text_18 m_0 ml_auto green_box">100</h4>
+                    </div>
+                   </div>
+                </div>
+              </div>
+          </div>
+
+      </div>
+    </div>
+    <!-- main wrapper -->
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+  <script src="./js/script.js"></script>
+  <script>
+      $(function() {
+  $('.box_custom').matchHeight();
+});
+  </script>
+</html>

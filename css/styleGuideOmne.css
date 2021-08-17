@@ -417,6 +417,9 @@ body {
 .text_right{
   text-align: right !important;
 }
+.text_center{
+  text-align: center !important;
+}
 
 /* color */
 .primary_text_color{
