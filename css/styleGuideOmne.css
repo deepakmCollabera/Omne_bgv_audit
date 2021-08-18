@@ -421,6 +421,9 @@ body {
   text-align: center !important;
 }
 
+.justify_center{
+  justify-content: center;
+}
 /* color */
 .primary_text_color{
   color: #56a9ff !important;

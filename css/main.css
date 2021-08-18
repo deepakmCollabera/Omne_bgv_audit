@@ -1115,6 +1115,15 @@ a.accordion-toggle .doc_arrow.color_black svg *{
   border-color: #6dc8e6;
   background-color: #edfbff;
 }
+.status_box.blue_box h4{
+  color: #6dc8e6;
+}
+.status_box.green_box h4{
+  color: #13b600;
+}
+.status_box.yellow_box h4{
+  color: #ffab00;
+}
 .status_box.green_box{
   border-color: #13b600;
   background-color: #e9ffe6;
