@@ -1032,8 +1032,11 @@ a.accordion-toggle .doc_arrow.color_black svg *{
 .po_tabs_details_wrap .error_border{
   border: 1px solid #d0021b;
 }
-.po_tabs_details_wrap .form_control{
-  width: 200px;
+.po_tabs_details_wrap .form_control input, .po_tabs_details_wrap .form_control select{
+  max-width: 200px;
+}
+.po_tabs_details_wrap .form_control input ~ select{
+  width: 150px;
 }
 .po_tabs_details_wrap .switch-field label{
   padding: .2rem .4rem;
@@ -1225,4 +1228,8 @@ a.accordion-toggle .doc_arrow.color_black svg *{
   height: 100%;
   border-left: 1px solid #9b9b9b;
   left: 49%;
+}
+.po_details_table .keyVal_key, 
+.po_details_table .keyVal_val{
+  width: 100%;
 }
