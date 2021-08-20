@@ -1198,3 +1198,31 @@ a.accordion-toggle .doc_arrow.color_black svg *{
 .redo_check_status.po_extention .table_wrap .custom_td {
   padding: 8px 4px;
 }
+.po_check_exte .po_main_right_wrap .pb_5{
+  padding-bottom: 3.15rem !important;
+}
+.pipe_line{
+  border-left: 1px solid #9b9b9b;
+  line-height: 4rem;
+  height: 30px;
+  display: inline-block;
+  font-size: 0;
+}
+.open_popup_check .action_popup{
+  width: 300px;
+}
+.open_popup_check{
+  position: relative;
+}
+.small_modal .custom_modal_wrap{
+  width: 330px;
+}
+.po_details_table{
+  position: relative;
+}
+.po_details_table .vertical_line{
+  position: absolute;
+  height: 100%;
+  border-left: 1px solid #9b9b9b;
+  left: 49%;
+}

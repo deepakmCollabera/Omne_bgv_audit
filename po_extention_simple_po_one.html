@@ -33,7 +33,7 @@
                     PO Extension
                 </div>
                 <div class="page_title text_16 font_500 p_3">
-                    Candidate PO Details
+                    Simple PO
                 </div>
                 <div class="nav-items">
                     <ul>
@@ -64,25 +64,32 @@
         <div class="sideNavItems">
             <ul>
                 <li>
-                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14"><span class="pr_4"><img
-                                src="./images/icons/ic-dashboard.svg" alt="ic-dashboard" /></span>
-                        <span class="text_hid">Dashnboard</span>
-                    </a>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-dashboard.svg" alt="ic-dashboard" /></span> <span class="text_hid">Dashnboard</span> </a>
                 </li>
                 <li>
-                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14 active"><span class="pr_4"><img
-                                src="./images/icons/ic-po-extension-white.svg" alt="ic-po-extension-white" /></span>
-                        <span class="text_hid">Green Signal</span>
-                    </a>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-green-signal.svg" alt="ic-green-signal" /></span> <span class="text_hid">Green Signal</span> </a>
                 </li>
                 <li>
-                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14"><span class="pr_4"><img
-                                src="./images/icons/ic-hire-wf.svg" alt="ic-hire-wf" /></span>
-                        <span class="text_hid"> Hire WF</span></a>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-hire-wf.svg" alt="ic-hire-wf" /></span> <span class="text_hid"> Hire WF</span></a>
+                </li>
+                <li>
+                    <a href="" class=" text_14 active"><span><img src="./images/icons/ic-po-extension-white.svg" alt="ic-po-extension-white" /></span> <span class="text_hid"> PO Extension</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14 "><span><img src="./images/icons/ic-paystub-verification.svg" alt="ic-paystub-verification" /></span> <span class="text_hid">BGV Redo</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14 "><span><img src="./images/icons/ic-bgv-redo-blue.svg" alt="ic-bgv-redo-blue" /></span> <span class="text_hid">BGV Redo</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-offboarding-wf.svg" alt="ic-offboarding-wf" /></span> <span class="text_hid">Offboarding WF</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-termination-wf.svg" alt="ic-termination-wf" /></span> <span class="text_hid">Termination WF</span> </a>
                 </li>
             </ul>
         </div>
-    </div>
+      </div>
     <!-- sidebar_left -->
 
     <!-- main wrapper -->
@@ -395,7 +402,7 @@
                 </div>
             </div>
             <div class="po_tabs_main_desc">
-                <div class="po_tabs_details_wrap">
+                <div class="po_tabs_details_wrap po_check_exte">
                     <a data-toggle="collapse" href="#po_details_wrap" class="accordion-toggle pt_3 pb_3 pl_4 px_4">
                         <h4 class="text_16 font_500 mt_0 mb_0 primary_text_color">
                             PO Details
@@ -427,350 +434,187 @@
                         </span>
                     </a>
                     <div class="accordion-body collapse in pt_3 pb_3 pl_4 px_4 border_top_light" id="po_details_wrap">
-                        <div class="sod_table keyValTable po_details_table">
-                            <div class="vertical_line">
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">
-                                        <span class="
-                                        custom_tag
-                                        text_14
-                                        font_600
-                                        white_text_color
-                                        bg_primary
-                                        py_1 px_2
-                                      ">Active</span>
+                        <div class="row">
+                            <div class="col-sm-6 po_main_left_wrap">
+                                <div class="sod_table keyValTable">
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5"></div>
+                                        <div class="keyVal_val pb_5">
+                                            <span class="
+                              custom_tag
+                              text_14
+                              font_600
+                              white_text_color
+                              bg_primary
+                              py_1 px_2
+                            ">Active</span>
+                                        </div>
                                     </div>
-                                    
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_key text_14">
-                                        <span class="
-                                        custom_tag
-                                        text_14
-                                        font_600
-                                        white_text_color
-                                        bg_orange
-                                        py_1 px_2
-                                        mb_4
-                                      ">New</span>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Client</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Wells Fargo</div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Client</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">Wells Fargo</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">Wells Fargo</div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">PO#</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">2232</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">2232</div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Start Date</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">04/01/2021</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">04/01/2021</div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">End Date <span class="required">*</span></div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">04/30/2021</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="form_control required icon p_0 height_input">
-                                            <input type="text" id="date" class="text_12 error_border"
-                                                placeholder="04/30/2021">
-                                            <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
-                                                    alt="calendar"></span>
-                                            <span class="red_error_color text_10 font_200">Please fill out this field</span>
-                                            <div class="rejected_info open_popup"><img src="./images/icons/ic-rejected-info-copy-218.svg" alt="ic-rejected-info-copy" />
-                                                <div class="action_popup popup_level_2">
-                                                    <div class="popup_header">
-                                                      <div class="row w_100 m_0">
-                                                        <div class="col-sm-6 p_3">
-                                                          <h6>Audit</h6>
-                                                        </div>
-                                                        <div class="col-sm-6 d-flex p_3">
-                                                          <h6>Ops</h6>
-                                                          <span class="close_popup"><img src="./images/icons/ic-popup-close.svg" alt="ic-popup-close"></span>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                    <div class="popup_body">
-                                                      <div class="row">
-                                                          <div class="col-sm-6 pt_2">
-                                                              <div class="row">
-                                                                <div class="col-sm-6 col_right_offset_6 rej_req_info">
-                                                                  <p>Reason</p>
-                                                                  <small>Rejected</small>
-                                                                </div>
-                                                                <div class="col-sm-12 rej_req_info">
-                                                                  <p>Notes</p>
-                                                                  <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</small>
-                                                                </div>
-                                                                <div class="col-sm-12 pb_2">
-                                                                  <span class="grey_color_one text_9 font_100">pradeep.singh</span> <span class="pl_4 grey_color_one text_9 font_100">03/15/2021  ●  17:45 PM</span>
-                                                                </div>
-                                                              </div>
-                                                            </div>
-                                                        <div class="col-sm-6 pl_2">
-                                                          <div class="row">
-                                                            <div class="col-sm-12">
-                                                              <div class="form_control dropdown required">
-                                                                <label for="">Status <span>*</span></label>
-                                                                <select name="" id="">
-                                                                  <option value="">Re-Submit</option>
-                                                                  <option value="">Reject</option>
-                                                                </select>
-                                                              </div>
-                                                              <div class="form_control required">
-                                                                <label for="">Notes <span>*</span></label>
-                                                                <textarea name="" id="" class="text_10">Ops Comments</textarea>
-                                                              </div>
-                                                            </div>
-                                                          </div>
-                                                        </div>
-                                                        <div class="col-sm-12 text_right">
-                                                          <button class="secondary_btn text_12 font_400 ml_2 no_border grey_color_one">Cancel</button>
-                                                          <button class="secondary_btn text_12 font_400 ml_2 no_border">Submit</button>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                  </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">PO#</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">2232</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Start Date</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">04/01/2021</div>
+                                    </div>
+                                    <div class="keyValRow height_input">
+                                        <div class="keyVal_key pb_5 text_14">End Date <span class="required">*</span>
+                                        </div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">02/01/2019</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Bill ST</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">$ 75 Per Month</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Bill OT</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">$ 10 Per Year</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Is OT Allowed</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">
+                                            <div class="switch-field">
+                                                <input type="radio" id="no_3" name="switch-three" value="no" />
+                                                <label for="no_3" class="font_400 text_10">No</label>
+                                                <input type="radio" id="yes_4" name="switch-three" value="yes"
+                                                    checked />
+                                                <label for="yes_4" class="font_400 text_10">Yes</label>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Bill ST</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">$ 75 Per Month</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">$ 75 Per Month</div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Bill OT</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">$ 10 Per Year</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">$ 10 Per Year</div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Is OT Allowed</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="switch-field">
-                                            <input type="radio" id="no_6" name="switch-4" value="no" />
-                                            <label for="no_6" class="font_400 text_10">No</label>
-                                            <input type="radio" id="yes_6" name="switch-4" value="yes"
-                                                checked />
-                                            <label for="yes_6" class="font_400 text_10">Yes</label>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Is DT Allowed</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">
+                                            <div class="switch-field">
+                                                <input type="radio" id="no_4" name="switch-four" value="no" />
+                                                <label for="no_4" class="font_400 text_10">No</label>
+                                                <input type="radio" id="yes_4" name="switch-four" value="yes" checked />
+                                                <label for="yes_4" class="font_400 text_10">Yes</label>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="switch-field">
-                                            <input type="radio" id="no_7" name="switch-5" value="no" />
-                                            <label for="no_7" class="font_400 text_10">No</label>
-                                            <input type="radio" id="yes_7" name="switch-5" value="yes"
-                                                checked />
-                                            <label for="yes_7" class="font_400 text_10">Yes</label>
-                                        </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Onsite ST Amount</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Onsite ST Amount</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Onsite OT Amount</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Onsite OT Amount</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Offsite ST Amount</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Offsite ST Amount</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Offsite OT Amount</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Offsite OT Amount</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Ignore Budget</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one"><span><input type="checkbox" /></span></div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">S ID</div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">S ID</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">Extension Status <span
+                                                class="required">*</span></div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">Extension Status</div>
+                                    </div>
+                                    <div class="keyValRow">
+                                        <div class="keyVal_key pb_5 text_14">PO Received Date <span
+                                                class="required">*</span></div>
+                                        <div class="keyVal_val pb_5 text_14 black_color_one">PO Received Date</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Is DT Allowed</div>
+                            <div class="col-sm-6 po_main_right_wrap">
+                                <div class="pb_5">
+                                    <span class="
+                                    custom_tag
+                                    text_14
+                                    font_600
+                                    white_text_color
+                                    bg_orange
+                                    py_1 px_2
+                                    mb_4
+                                  ">New</span>
                                 </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="switch-field">
-                                            <input type="radio" id="no_9" name="switch-6" value="no" />
-                                            <label for="no_9" class="font_400 text_10">No</label>
-                                            <input type="radio" id="yes_9" name="switch-6" value="yes"
-                                                checked />
-                                            <label for="yes_9" class="font_400 text_10">Yes</label>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4 open_popup_check"><input type="checkbox" />
+                                    <div class="action_popup popup_level_2">
+                                        <div class="popup_header p_2">
+                                            <h6>Audit Rejection Area
+                                            <span class="close_popup float-right"><img src="./images/icons/ic-popup-close.svg" alt="ic-popup-close"></span>
+
+                                            </h6>
                                         </div>
+                                        <div class="popup_body">
+                                                  <div class="form_control d-flex align-items-center pb_0">
+                                                      <input type="checkbox" class="w_fit_content" id="data_re" />
+                                                    <label for="data_re" class="mb_0 pl_2">Data Rectification</label>
+                                                  </div>
+                                                  <div class="form_control d-flex align-items-center pb_0">
+                                                    <input type="checkbox" class="w_fit_content" id="miss_doc" />
+                                                  <label for="miss_doc" class="mb_0 pl_2">Missing Documents </label>
+                                                </div>
+                                                <div class="form_control d-flex align-items-center">
+                                                    <input type="checkbox" class="w_fit_content" id="incorr_doc" />
+                                                  <label for="incorr_doc" class="mb_0 pl_2">Incorrect Document Uploaded  </label>
+                                                </div>
+                                                  <div class="form_control required">
+                                                    <label for="">Comments <span>*</span></label>
+                                                    <textarea name="" id="" class="text_10">Audit Comments</textarea>
+                                                  </div>
+                                                  <div class="text_right">
+                                                    <button class="secondary_btn text_12 font_400 ml_2 no_border grey_color_one">Cancel</button>
+                                                    <button class="secondary_btn text_12 font_400 no_border">Submit</button>
+                                                  </div>
+                                              
+                                        </div>
+                                      </div>
+                                </span> Wells Fargo</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>2232</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>04/01/2021</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>04/30/2021</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>$ 75 Per Month</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>$ 10 Per Year</div>
+                                <div class="font_400 text_14 pb_5">
+                                    <span class="pr_4"><input type="checkbox" /></span>
+                                    <div class="switch-field">
+                                        <input type="radio" id="no_2" name="switch-one" value="no" />
+                                        <label for="no_2" class="font_400 text_10">No</label>
+                                        <input type="radio" id="yes_2" name="switch-one" value="yes" checked />
+                                        <label for="yes_2" class="font_400 text_10">Yes</label>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="switch-field">
-                                            <input type="radio" id="no_8" name="switch-7" value="no" />
-                                            <label for="no_8" class="font_400 text_10">No</label>
-                                            <input type="radio" id="yes_8" name="switch-7" value="yes"
-                                                checked />
-                                            <label for="yes_8" class="font_400 text_10">Yes</label>
-                                        </div>
+                                <div class="font_400 text_14 pb_5">
+                                    <span class="pr_4"><input type="checkbox" /></span>
+                                    <div class="switch-field">
+                                        <input type="radio" id="no_1" name="switch-two" value="no" />
+                                        <label for="no_1" class="font_400 text_10">No</label>
+                                        <input type="radio" id="yes_1" name="switch-two" value="yes" checked />
+                                        <label for="yes_1" class="font_400 text_10">Yes</label>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Onsite ST Amount</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">Onsite ST Amount</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="form_control p_0  ">
-                                            <input type="text" class="text_12" placeholder="Onsite ST Amount">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Onsite OT Amount</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">Onsite OT Amount</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="form_control p_0  ">
-                                            <input type="text" class="text_12" placeholder="Onsite OT Amount">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Offsite ST Amount</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">Offsite ST Amount</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="form_control p_0  ">
-                                            <input type="text" class="text_12" placeholder="Offsite ST Amount">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Offsite OT Amount</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">Offsite OT Amount</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="form_control p_0  ">
-                                            <input type="text" class="text_12" placeholder="Offsite OT Amount">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Ignore Budget</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">Ignore Budget</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="form_control p_0  ">
-                                            <input type="text" class="text_12" placeholder="Ignore Budget">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">S ID</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">S ID</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="form_control p_0  ">
-                                            <input type="text" class="text_12" placeholder="S ID">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Extension Status</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">Extension Status</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="form_control p_0  ">
-                                            <select name="" id="" class="error_border">
-                                                <option value="">Select</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row keyValRow m_0 d-flex align-items-center py_2">
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_key text_14">Extension Status</div>
-                                </div>
-                                <div class="col-sm-3 p_0">
-                                    <div class="keyVal_val text_14 black_color_one">Extension Status</div>
-                                </div>
-                                <div class="col-sm-6 pb_0 pl_5">
-                                    <div class="keyVal_val text_14 black_color_one">
-                                        <div class="form_control required icon p_0 height_input ">
-                                            <input type="text" class="text_12 error_border" placeholder="PO Received Date">
-                                            <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
-                                                    alt="calendar"></span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>Onsite ST Amount</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>Onsite OT Amount</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>Offsite ST Amount</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>Offsite OT Amount</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span> <span><input type="checkbox" /></span></div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>S ID</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>Paystatus</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>PO Received Date</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="po_tabs_details_wrap mt_3">
+                <div class="po_tabs_details_wrap po_check_exte mt_3">
                     <a data-toggle="collapse" href="#po_details_wrap" class="accordion-toggle pt_3 pb_3 pl_4 px_4">
                         <h4 class="text_16 font_500 mt_0 mb_0 primary_text_color">
                             Manager Info
@@ -852,31 +696,10 @@
                       py_1 px_2
                       mb_4
                     ">New</span>
-
-                                <div class="font_500 text_14 pb_4 pt_4">
-                                    <div class="form_control p_0  ">
-                                        <select name="" id="" class="error_border">
-                                            <option value="">Name</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="font_500 text_14 pb_4">
-                                    <div class="form_control p_0  ">
-                                        <input type="text" class="text_12 error_border" placeholder="Phone">
-                                    </div>
-                                </div>
-                                <div class="font_500 text_14 pb_4">
-                                    <div class="form_control p_0  ">
-                                        <input type="text" class="text_12 error_border" placeholder="Email ID">
-                                    </div>
-                                </div>
-                                <div class="font_500 text_14 pb_4">
-                                    <div class="form_control required icon p_0 height_input ">
-                                        <input type="text" class="text_12 error_border" placeholder="PO Received Date">
-                                        <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
-                                                alt="calendar"></span>
-                                    </div>
-                                </div>
+                                <div class="font_400 text_14 pb_5 pt_5"><span class="pr_4"><input type="checkbox" /></span>Name</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>Phone</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>Email ID</div>
+                                <div class="font_400 text_14 pb_5"><span class="pr_4"><input type="checkbox" /></span>04/30/2021</div>
                             </div>
                         </div>
                     </div>
@@ -918,19 +741,22 @@
                                 <div class="col-sm-4">
                                     <div class="form_control">
                                         <label for="">Solomon Inv Notes</label>
-                                        <input type="text" placeholder="Enter Solomon Inv Notes">
+                                        <p class="font_400 text_12 clamp_2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                        <!-- <input type="text" placeholder="Enter Solomon Inv Notes"> -->
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="form_control">
                                         <label for="">EHRIS Project Notes</label>
-                                        <input type="text" placeholder="Enter Project Notes">
+                                        <p class="font_400 text_12 clamp_3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                        <!-- <input type="text" placeholder="Enter Project Notes"> -->
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="form_control">
                                         <label for="">Ops Remarks/Po Extention Notes</label>
-                                        <input type="text" placeholder="Enter Remarks">
+                                        <p class="font_400 text_12 clamp_3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                        <!-- <input type="text" placeholder="Enter Remarks"> -->
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
@@ -988,10 +814,67 @@
             </div>
         </div>
         <div class="button_wrap text_right py_4">
-            <button class="secondary_btn mr_2">Save As Draft</button>
-            <button class="primary_btn">Submit</button>
+            <button class="primary_btn mr_2 modal_open" data-modalName="asign_auditor">Assign to Auditor 2</button> <span class="pipe_line">|</span>
+            <button class="primary_btn ml_2">Approve</button>
+            <button class="secondary_btn ml_2">Reject</button>
         </div>
         <!-- main wrapper -->
+         <!-- modal -->
+    <div class="custom_modal notes_modal small_modal" id="asign_auditor">
+        <div class="custom_modal_wrap">
+          <div class="custom_modal_header">
+            <h5 class="modal-title">Assign to Auditor 2</h5>
+            <button class="close">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                >
+                  <defs>
+                    <path
+                      id="x997k9vwqa"
+                      d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7z"
+                    ></path>
+                  </defs>
+                  <g fill="none" fill-rule="evenodd">
+                    <g>
+                      <g>
+                        <g>
+                          <g
+                            transform="translate(-1146 -528) translate(496 505) translate(1 17) translate(649 6)"
+                          >
+                            <use fill="#4A4A4A" xlink:href="#x997k9vwqa"></use>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="custom_modal_body">
+            <div class="form_control icon">
+                <label for="date" class="text_10">Email ID</label>
+                <input type="text" id="name" class="text_12">
+                <span class="icon_img"><img src="./images/icons/ic-search.svg" alt="search"></span>
+              </div>
+              <div class="form_control icon">
+                <label for="date" class="text_10">Auditor Name</label>
+                <input type="text" id="name" class="text_12">
+                <span class="icon_img"><img src="./images/icons/ic-search.svg" alt="search"></span>
+              </div>
+            <div class="text_right mt_4">
+              <button class="secondary_btn">Cancel</button>
+              <button class="primary_btn ml_2">Assign</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- modal -->
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>

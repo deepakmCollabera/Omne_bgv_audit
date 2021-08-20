@@ -36,6 +36,9 @@ $(document).ready(function(){
     e.preventDefault();
     $(this).siblings(".filter_wrap").toggleClass("active");
   });
+  $(".open_popup_check input").change(function(){
+    $(this).siblings(".action_popup").toggleClass("active");
+  })
 
   $(".close_popup").click(function(e){
     e.stopPropagation();
