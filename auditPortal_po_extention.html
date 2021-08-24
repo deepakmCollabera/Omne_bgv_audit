@@ -385,63 +385,133 @@
     </div>
     </div>
 
-    <!-- modal -->
-    <div class="custom_modal notes_modal" id="reject_notes_modal">
-      <div class="custom_modal_wrap">
-        <div class="custom_modal_header">
-          <h5 class="modal-title">Rejection Notes</h5>
-          <button class="close">
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="14"
-                height="14"
-                viewBox="0 0 14 14"
-              >
-                <defs>
-                  <path
-                    id="x997k9vwqa"
-                    d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7z"
-                  ></path>
-                </defs>
-                <g fill="none" fill-rule="evenodd">
-                  <g>
+     <!-- modal -->
+     <div class="custom_modal consultant_modal active" id="consultant_modal">
+        <div class="custom_modal_wrap">
+          <div class="custom_modal_header">
+            <h5 class="modal-title">Consultant List</h5>
+            <button class="close">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                >
+                  <defs>
+                    <path
+                      id="x997k9vwqa"
+                      d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7z"
+                    ></path>
+                  </defs>
+                  <g fill="none" fill-rule="evenodd">
                     <g>
                       <g>
-                        <g
-                          transform="translate(-1146 -528) translate(496 505) translate(1 17) translate(649 6)"
-                        >
-                          <use fill="#4A4A4A" xlink:href="#x997k9vwqa"></use>
+                        <g>
+                          <g
+                            transform="translate(-1146 -528) translate(496 505) translate(1 17) translate(649 6)"
+                          >
+                            <use fill="#4A4A4A" xlink:href="#x997k9vwqa"></use>
+                          </g>
                         </g>
                       </g>
                     </g>
                   </g>
-                </g>
-              </svg>
-            </span>
-          </button>
-        </div>
-        <div class="custom_modal_body">
-          <div class="form_control required mb-3 dropdown">
-            <label for="">Reason <span>*</span></label>
-            <select name="" id="">
-              <option value="">Reason</option>
-              <option value="">Reason 1</option>
-            </select>
+                </svg>
+              </span>
+            </button>
           </div>
-          <div class="form_control required mb-3">
-            <label for="">Notes <span>*</span></label>
-            <textarea rows="4" placeholder="Notes"></textarea>
-          </div>
-          <div class="confirmation_btn">
-            <button class="close">Cancel</button>
-            <button class="confirm_btn">Save</button>
+          <div class="custom_modal_body">
+            <div class="table_wrap accordion p_3" id="accordion1">
+                <div class="custom_tr accordion-group">
+                    <div class="custom_th w_custom_12">
+                      Candidate Name
+                    </div>
+                    <div class="custom_th w_custom_11 text_center">
+                      Client
+                    </div>
+                    <div class="custom_th w_custom_10 text_center">
+                      DOJ
+                    </div>
+                    <div class="custom_th w_custom_10 text_center">LWD
+                    </div>
+                    <div class="custom_th w_custom_10 text_center">
+                      PO No.
+                    </div>
+                    <div class="custom_th w_custom_12 text_center">
+                        Consultant Type
+                    </div>
+                    <div class="custom_th w_custom_10 text_center">
+                      Status
+                    </div>
+                    <div class="custom_th w_custom_15 text_center">
+                        Project Name
+                    </div>
+                    <div class="custom_th w_custom_10 text_center">
+                        Region
+                    </div>
+                  </div>
+                <div class="custom_tr row">
+                    <div class="custom_td w_custom_12">Carmelita Marsham  <br> <span>123456</span></div>
+                    <div class="custom_td w_custom_11 text_center">Wells Fargo</div>
+                    <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+                    <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+                    <div class="custom_td w_custom_10 text_center">2232</div>
+                    <div class="custom_td w_custom_12 text_center">Contractor</div>
+                    <div class="custom_td w_custom_10 text_center">Active</div>
+                    <div class="custom_td w_custom_15 text_center">David Yun FY18-20 Collabera Shooter Gameplay Anima</div>
+                    <div class="custom_td w_custom_10 text_center">Charlotte-Territory</div>
+                </div>
+                <div class="custom_tr row">
+                    <div class="custom_td w_custom_12">Carmelita Marsham  <br> <span>123456</span></div>
+                    <div class="custom_td w_custom_11 text_center">Wells Fargo</div>
+                    <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+                    <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+                    <div class="custom_td w_custom_10 text_center">2232</div>
+                    <div class="custom_td w_custom_12 text_center">Contractor</div>
+                    <div class="custom_td w_custom_10 text_center">Active</div>
+                    <div class="custom_td w_custom_15 text_center">David Yun FY18-20 Collabera Shooter Gameplay Anima</div>
+                    <div class="custom_td w_custom_10 text_center">Charlotte-Territory</div>
+                </div>
+                <div class="custom_tr row">
+                    <div class="custom_td w_custom_12">Mark Hodges  <br> <span>100033</span></div>
+                    <div class="custom_td w_custom_11 text_center">Accenture</div>
+                    <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+                    <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+                    <div class="custom_td w_custom_10 text_center">2232</div>
+                    <div class="custom_td w_custom_12 text_center">Full-time,NonExempt-Hourly</div>
+                    <div class="custom_td w_custom_10 text_center red_error_color">Terminated</div>
+                    <div class="custom_td w_custom_15 text_center">Call Center Representative - Regular project</div>
+                    <div class="custom_td w_custom_10 text_center">R1 - Seattle-Downtown</div>
+                </div>
+                <div class="custom_tr row">
+                    <div class="custom_td w_custom_12">Carmelita Marsham  <br> <span>123456</span></div>
+                    <div class="custom_td w_custom_11 text_center">Wells Fargo</div>
+                    <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+                    <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+                    <div class="custom_td w_custom_10 text_center">2232</div>
+                    <div class="custom_td w_custom_12 text_center">Contractor</div>
+                    <div class="custom_td w_custom_10 text_center">Active</div>
+                    <div class="custom_td w_custom_15 text_center">David Yun FY18-20 Collabera Shooter Gameplay Anima</div>
+                    <div class="custom_td w_custom_10 text_center">Charlotte-Territory</div>
+                </div>
+                <div class="custom_tr row">
+                    <div class="custom_td w_custom_12">Mark Hodges  <br> <span>100033</span></div>
+                    <div class="custom_td w_custom_11 text_center">Accenture</div>
+                    <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+                    <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+                    <div class="custom_td w_custom_10 text_center">2232</div>
+                    <div class="custom_td w_custom_12 text_center">Full-time,NonExempt-Hourly</div>
+                    <div class="custom_td w_custom_10 text_center red_error_color">Terminated</div>
+                    <div class="custom_td w_custom_15 text_center">Call Center Representative - Regular project</div>
+                    <div class="custom_td w_custom_10 text_center">R1 - Seattle-Downtown</div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- modal -->
+      <!-- modal -->
     <!-- main wrapper -->
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

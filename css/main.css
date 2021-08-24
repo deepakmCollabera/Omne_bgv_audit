@@ -1233,3 +1233,25 @@ a.accordion-toggle .doc_arrow.color_black svg *{
 .po_details_table .keyVal_val{
   width: 100%;
 }
+
+/* consultant_modal */
+.consultant_modal .custom_modal_wrap{
+  width: 95%;
+}
+.consultant_modal .table_wrap > .custom_tr:nth-child(2){
+  background-color: #ffffff !important;
+  border-bottom: unset;
+}
+.consultant_modal .table_wrap > .custom_tr:first-child{
+  background-color: #f2f5fa !important;
+  border-bottom: unset;
+  border-top: 1px solid #56a9ff;
+  border-bottom: 1px solid #56a9ff;
+}
+.consultant_modal .table_wrap > .custom_tr:first-child .custom_th{
+  color: #56a9ff;
+  font-weight: 500;
+}
+.consultant_modal .table_wrap > .custom_tr .custom_td:first-child{
+  color: #56a9ff;
+}

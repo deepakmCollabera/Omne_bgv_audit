@@ -15,6 +15,20 @@ $(document).ready(function(){
     $("#"+modal+"").addClass("active");
   })
 
+  $(".open_modal_check").click(function(e){
+    if($(this).children("input").prop("checked")){
+      console.log("checked");
+      $(this).children("input").prop("checked", "true");
+      let modal = $(this).attr("data-modalName");
+      $("#"+modal+"").addClass("active");
+    }else{
+      $(this).children("input").removeAttr("checked");
+
+      console.log("not checked");
+      
+    }
+  })
+
   $(".custom_modal .close").click(function(){
     // console.log("close");
     $(this).closest(".custom_modal").removeClass("active");
