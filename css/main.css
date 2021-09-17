@@ -1255,3 +1255,11 @@ a.accordion-toggle .doc_arrow.color_black svg *{
 .consultant_modal .table_wrap > .custom_tr .custom_td:first-child{
   color: #56a9ff;
 }
+
+/* select box */
+.rcs_search_assign select{
+  border-radius: 4px;
+  border: solid 1px #e7e7e7;
+  width: 10%;
+  padding: .3rem .6rem
+}
