@@ -22,6 +22,9 @@ body {
 .w_100{
   width: 100%;
 }
+.w_50{
+  width: 50% !important;
+}
 .w_fit_content{
   width: fit-content !important;
 }

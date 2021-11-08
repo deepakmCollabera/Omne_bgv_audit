@@ -45,6 +45,10 @@ $(document).ready(function(){
     e.preventDefault();
     $(this).children(".action_popup").toggleClass("active");
   });
+  $(".action_popup").click(function(e){
+    e.stopPropagation();
+    e.preventDefault();
+  });
   $(".open_filter").click(function(e){
     e.stopPropagation();
     e.preventDefault();
