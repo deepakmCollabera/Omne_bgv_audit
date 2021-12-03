@@ -422,6 +422,9 @@ a.accordion-toggle .doc_arrow {
   color: #565656;
   padding: 8px;
 }
+.w_custom_60 {
+  width: 60% !important;
+}
 .w_custom_20 {
   width: 20% !important;
 }
@@ -669,7 +672,7 @@ a.accordion-toggle .doc_arrow {
   width: 14px;
   position: absolute;
   height: 14px;
-  top: 60%;
+  top: 54%;
   right: 4%;
   z-index: 0;
   background-position: center;
@@ -1071,7 +1074,7 @@ a.accordion-toggle .doc_arrow.color_black svg *{
   margin: 0;
   font-size: 14px;
 }
-.po_proj_notes .attach_files label{
+.attach_files label{
   padding: .5rem 1rem;
   border: 1px dashed #56a9ff;
   font-size: 14px;
@@ -1080,7 +1083,7 @@ a.accordion-toggle .doc_arrow.color_black svg *{
   margin-bottom: 1rem;
   position: relative;
 }
-.po_proj_notes .attach_files input{
+.attach_files input{
   opacity: 0;
   position: absolute;
   left: 0;
@@ -1416,6 +1419,42 @@ a.accordion-toggle .doc_arrow.color_black svg *{
 }
 .accordian_start .required span img{
   max-width: 16px;
+}
+
+.radio_wrap_2{
+  display: flex;
+  align-items: center;
+}
+.radio_wrap_2 > div{
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+.radio_wrap_2 > div label{
+  margin: 0;
+  padding: .2rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.address_cons > .custom_tr:first-child{
+  border-top: 1px solid #56a9ff;
+  border-bottom: 1px solid #56a9ff;
+}
+.address_cons .custom_tr .custom_th{
+  color: #56a9ff;
+}
+.address_cons .accordion-toggle .custom_tr{
+  background-color: #ffffff;
+}
+.accordian_start .address_cons > .accordion-body.expanded_data{
+  background-color: #ffffff;
+}
+.add_cons_det .sod_table{
+  width: 25%;
+}
+.add_cons_bgv a.accordion-toggle .doc_arrow svg * {
+  fill: #ffffff !important;
 }
 
 @media(min-width:1600px){
