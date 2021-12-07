@@ -1,0 +1,1011 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document List - Send Offer</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="./css/styleGuideOmne.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <!-- top omne bar -->
+  <div class="omne_bar">
+    <div class="custom_container">
+      <img src="./images/omne_with_tagline_rgb.png" title="omne_with_tagline_rgb" />
+    </div>
+  </div>
+  <!-- top omne bar -->
+
+  <!-- main nav bar -->
+  <div class="nav_menu">
+    <div class="custom_container">
+      <div class="row">
+        <div class="side_menu">
+          <img src="./images/icons/ic-menu.svg" alt="ic-menu" />
+        </div>
+        <div class="tab_title text_18 font_600 p_3 ml_4 h_100">
+          PO Extension
+        </div>
+        <div class="page_title text_16 font_500 p_3">
+          Reactive PO Details
+        </div>
+        <div class="nav-items">
+          <ul>
+            <li>
+              <a href="">
+                <img src="./images/icons/ic-tools.svg" alt="ic-tools" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/icons/ic-notification.svg" alt="ic-notification" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/icons/ic-login-profile-image.png" alt="ic-login-profile-image" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- main nav bar -->
+
+  <!-- sidebar_left -->
+  <div class="leftSideBar pt_4 pb_4 pl_2 pr_2">
+    <div class="sideNavItems">
+      <ul>
+        <li>
+          <a href="" class=" text_14"><span><img src="./images/icons/ic-dashboard.svg" alt="ic-dashboard" /></span>
+            <span class="text_hid">Dashnboard</span> </a>
+        </li>
+        <li>
+          <a href="" class=" text_14"><span><img src="./images/icons/ic-green-signal.svg"
+                alt="ic-green-signal" /></span> <span class="text_hid">Green Signal</span> </a>
+        </li>
+        <li>
+          <a href="" class=" text_14"><span><img src="./images/icons/ic-hire-wf.svg" alt="ic-hire-wf" /></span> <span
+              class="text_hid"> Hire WF</span></a>
+        </li>
+        <li>
+          <a href="" class=" text_14 active"><span><img src="./images/icons/ic-po-extension-white.svg"
+                alt="ic-po-extension-white" /></span> <span class="text_hid"> PO Extension</span> </a>
+        </li>
+        <li>
+          <a href="" class=" text_14 "><span><img src="./images/icons/ic-paystub-verification.svg"
+                alt="ic-paystub-verification" /></span> <span class="text_hid">BGV Redo</span> </a>
+        </li>
+        <li>
+          <a href="" class=" text_14 "><span><img src="./images/icons/ic-bgv-redo-blue.svg"
+                alt="ic-bgv-redo-blue" /></span> <span class="text_hid">BGV Redo</span> </a>
+        </li>
+        <li>
+          <a href="" class=" text_14"><span><img src="./images/icons/ic-offboarding-wf.svg"
+                alt="ic-offboarding-wf" /></span> <span class="text_hid">Offboarding WF</span> </a>
+        </li>
+        <li>
+          <a href="" class=" text_14"><span><img src="./images/icons/ic-termination-wf.svg"
+                alt="ic-termination-wf" /></span> <span class="text_hid">Termination WF</span> </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- sidebar_left -->
+
+  <!-- main wrapper -->
+  <div class="main_wrapper custom_container">
+    <div class="redo_check_status po_candidate po_extention p_3 mt_3">
+      <div class="rcs_head">
+        <h4 class="text_16 font_600 mt_0 mb_0 primary_text_color">
+          Reactive PO List
+        </h4>
+        <div class="rcs_search ml_auto">
+          <input type="search" placeholder="Search by Collabera ID/Candidate Name/Client Name" class="text_14 font_400">
+          <span><img src="./images/icons/ic-search.svg" alt="ic-search"></span>
+        </div>
+        <div class="xl_icon ml_auto pos-relative">
+          <span class="open_filter cursor_pointer"><img src="./images/icons/ic-topfilter-bottom.svg"
+              alt="ic-topfilter-bottom"></span>
+          <span class="ml_2"><img src="./images/icons/ic-solid-table.svg" alt="ic-solid-table"></span>
+          <span class="ml_2"><img src="./images/icons/ic-excel.svg" alt="ic-excel"></span>
+          <div class="filter_wrap table_columns">
+            <div class="filter_head">
+              <h6 class="text_14 font_500 primary_text_color my_0">
+                Table columns
+              </h6>
+              <span class="close_popup cursor_pointer"><img src="./images/icons/ic-popup-close.svg"
+                  alt="ic-popup-close" /></span>
+            </div>
+            <div class="filter_body py_2">
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="candidateName" />
+                <label for="candidateName" class="text_12 font_500 mb_0">Candidate Name</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="client" />
+                <label for="client" class="text_12 font_500 mb_0">Client</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="doj" />
+                <label for="doj" class="text_12 font_500 mb_0">DOJ</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="lwd" />
+                <label for="lwd" class="text_12 font_500 mb_0">LWD</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="poNo" />
+                <label for="poNo" class="text_12 font_500 mb_0">PO. NO.</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="poType" />
+                <label for="poType" class="text_12 font_500 mb_0">PO Type</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="poStart" />
+                <label for="poStart" class="text_12 font_500 mb_0">PO Start Date</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="poEnd" />
+                <label for="poEnd" class="text_12 font_500 mb_0">PO End Date</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="status" />
+                <label for="status" class="text_12 font_500 mb_0">Status</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="poMoveBill" />
+                <label for="poMoveBill" class="text_12 font_500 mb_0">PO Moved to Billing</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="priority" />
+                <label for="priority" class="text_12 font_500 mb_0">Priority</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="playingCompany" />
+                <label for="playingCompany" class="text_12 font_500 mb_0">Paying Company</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="billingCompany" />
+                <label for="billingCompany" class="text_12 font_500 mb_0">Billing Company</label>
+              </div>
+              <div class="form_control py_1 d-flex align-items-center">
+                <input type="checkbox" class="w_custom_20" id="projectName" />
+                <label for="projectName" class="text_12 font_500 mb_0">Project Name</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rcs_search_assign d-flex align-items-center pt_2">
+        <p class="mb_0 text_14 mr_4">Assign to operations executive</p>
+        <select name="" id="" class="mr_4">
+          <option value="self">Self</option>
+          <option value="darashana.joshi">darashana.joshi</option>
+          <option value="pradeep.gadiya">pradeep.gadiya</option>
+          <option value="darashana.joshi">darashana.joshi</option>
+          <option value="pradeep.gadiya">pradeep.gadiya</option>
+        </select>
+        <button class="primary_btn">Assign</button>
+      </div>
+      <div class="rcs_body reactive_po_ pt_4">
+        <div class="table_wrap accordion" id="accordion1">
+          <div class="custom_tr accordion-group">
+            <div class="custom_th w_custom_4 d-flex align-items-center">
+              <input type="checkbox" checked="" class="ml_1">
+            </div>
+            <div class="custom_th w_custom_12">
+              Candidate Name
+              <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+            </div>
+            <div class="custom_th w_custom_6">
+              DOJ
+              <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+            </div>
+            <div class="custom_th w_custom_8">
+              Client
+              <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+            </div>
+            <div class="custom_th w_custom_6">
+              PO No.
+              <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+            </div>
+            <div class="custom_th w_custom_10">
+              PO Start Date
+              <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+            </div>
+            <div class="custom_th w_custom_10">
+              PO End Date
+              <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+            </div>
+            <div class="custom_th w_custom_14">
+              PO Extension Status
+              <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+            </div>
+            <div class="custom_th w_custom_6">
+              Eff Date
+            </div>
+
+            <div class="custom_th w_custom_6">LWD
+              <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+            </div>
+            <div class="custom_th w_custom_8">
+              TerM Date
+            </div>
+            <div class="custom_th w_custom_6">
+              Bill ST
+            </div>
+            <div class="custom_th w_custom_6">
+              Bill OT
+              <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+            </div>
+          </div>
+          <div class="custom_tr accordion-group">
+            <div class="custom_th w_custom_4 d-flex align-items-center">
+              <span class="ml_1"><img src="./images/icons/ic-close.svg" alt="ic-close"></span>
+            </div>
+            <div class="custom_th w_custom_12">
+              <span class="custom_tag">Candidate Name
+                <span class="ml_1"><img src="./images/icons/ic-close.svg" alt="ic-close"></span></span>
+            </div>
+            <div class="custom_th w_custom_6">
+              <span class="custom_tag">DOJ<span class="ml_1"><img src="./images/icons/ic-close.svg"
+                    alt="ic-close"></span></span>
+            </div>
+            <div class="custom_th w_custom_8">
+              <span class="custom_tag">Client
+                <span class="ml_1"><img src="./images/icons/ic-close.svg" alt="ic-close"></span></span>
+            </div>
+            <div class="custom_th w_custom_6">
+              <span class="custom_tag">PO.NO
+                <span class="ml_1"><img src="./images/icons/ic-close.svg" alt="ic-close"></span></span>
+            </div>
+            <div class="custom_th w_custom_10">
+              <span class="custom_tag">PO Start Date
+                <span class="ml_1"><img src="./images/icons/ic-close.svg" alt="ic-close"></span></span>
+            </div>
+            <div class="custom_th w_custom_10">
+              <span class="custom_tag">PO End Date
+                <span class="ml_1"><img src="./images/icons/ic-close.svg" alt="ic-close"></span></span>
+            </div>
+            <div class="custom_th w_custom_14">
+              <span class="custom_tag">PO Extension Status
+                <span class="ml_1"><img src="./images/icons/ic-close.svg" alt="ic-close"></span></span>
+            </div>
+            <div class="custom_th w_custom_6">
+
+            </div>
+            <div class="custom_th w_custom_6">
+              <span class="custom_tag">LWD
+                <span class="ml_1"><img src="./images/icons/ic-close.svg" alt="ic-close"></span></span>
+            </div>
+            <div class="custom_th w_custom_8">
+
+            </div>
+            <div class="custom_th w_custom_6">
+
+            </div>
+            <div class="custom_th w_custom_6">
+
+            </div>
+          </div>
+          <div class="custom_tr row">
+              <div class="custom_td w_custom_4"><input type="checkbox" checked="checked"></div>
+            <div class="custom_td w_custom_12">Carmelita Marsham <br> <span>123456</span></div>
+            <div class="custom_td w_custom_6 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_8 text_center">AUTO CLUB SERVICES INC. (AAA)</div>
+            <div class="custom_td w_custom_6 text_center">379720</div>
+            <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+            <div class="custom_td w_custom_14 text_center">Reactive</div>
+            <div class="custom_td w_custom_6 text_center">—</div>
+            <div class="custom_td w_custom_6 text_center">—</div>
+            <div class="custom_td w_custom_8 text_center">—</div>
+            <div class="custom_td w_custom_6 text_center">$ 30</div>
+            <div class="custom_td w_custom_6 text_center">$ 37.5</div>
+            <div class="slider_left">
+              <ul>
+                <li class="arrow_left"><span><img src="./images/icons/ic-expand-more.svg" alt="ic-expand-more" /></span>
+                </li>
+                <li class="open_popup">
+                  <span><img src="./images/icons/ic-comment.svg" alt="ic-comment" /></span>
+                  <div class="followup_notes action_popup">
+                    <div class="fnotes_header pb_1 d-flex align-items-center">
+                      <h5 class="m_0 text_12 font_500 primary_text_color">PO Follow Up Notes</h5>
+                      <a href="" class="ml_auto text_12 font_500">Add</a>
+                      <a href="" class="ml_2 text_12 font_500 close_popup"><img src="./images/icons/ic-close.svg"
+                          alt="ic-close" /></a>
+                    </div>
+                    <div class="fnotes_list ">
+                      <div class="fnotes_wrap d-flex pb_1 pt_1">
+                        <div class="fnotes_title pr_1">
+                          <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                          <div class="fnotes_det mt_1">
+                            <span class="text_10 grey_color_one m_0 pr_2">pradeep.singh</span> <span
+                              class="text_10 grey_color_one m_0">03/15/2021 ● 17:45 PM</span>
+                          </div>
+                        </div>
+                        <div class="fnotes_action">
+                          <span><img src="./images/icons/ic-remove-copy-11.svg" alt="ic-remove-copy-11" /></span>
+                        </div>
+                      </div>
+                      <div class="fnotes_wrap d-flex pb_1 pt_1">
+                        <div class="fnotes_title pr_1">
+                          <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                          <div class="fnotes_det mt_1">
+                            <span class="text_10 grey_color_one m_0 pr_2 grey_color_one">pradeep.singh</span> <span
+                              class="text_10 grey_color_one m_0 grey_color_one">03/15/2021 ● 17:45 PM</span>
+                          </div>
+                        </div>
+                        <div class="fnotes_action">
+                          <span><img src="./images/icons/ic-remove-copy-11.svg" alt="ic-remove-copy-11" /></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li><span><img src="./images/icons/ic-mail-2.svg" alt="ic-mail-2" /></span></li>
+                <li><span><img src="./images/icons/ic-refresh.svg" alt="ic-refresh" /></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="custom_tr row">
+              <div class="custom_td w_custom_4"><input type="checkbox" checked="checked"></div>
+            <div class="custom_td w_custom_12">Carmelita Marsham <br> <span>123456</span></div>
+            <div class="custom_td w_custom_6 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_8 text_center">AUTO CLUB SERVICES INC. (AAA)</div>
+            <div class="custom_td w_custom_6 text_center">379720</div>
+            <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+            <div class="custom_td w_custom_14 text_center">Reactive</div>
+            <div class="custom_td w_custom_6 text_center">—</div>
+            <div class="custom_td w_custom_6 text_center">—</div>
+            <div class="custom_td w_custom_8 text_center">—</div>
+            <div class="custom_td w_custom_6 text_center">$ 30</div>
+            <div class="custom_td w_custom_6 text_center">$ 37.5</div>
+            <div class="slider_left">
+              <ul>
+                <li class="arrow_left"><span><img src="./images/icons/ic-expand-more.svg" alt="ic-expand-more" /></span>
+                </li>
+                <li class="open_popup">
+                  <span><img src="./images/icons/ic-comment.svg" alt="ic-comment" /></span>
+                  <div class="followup_notes action_popup">
+                    <div class="fnotes_header pb_1 d-flex align-items-center">
+                      <h5 class="m_0 text_12 font_500 primary_text_color">PO Follow Up Notes</h5>
+                      <a href="" class="ml_auto text_12 font_500">Add</a>
+                      <a href="" class="ml_2 text_12 font_500 close_popup"><img src="./images/icons/ic-close.svg"
+                          alt="ic-close" /></a>
+                    </div>
+                    <div class="fnotes_list ">
+                      <div class="fnotes_wrap d-flex pb_1 pt_1">
+                        <div class="fnotes_title pr_1">
+                          <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                          <div class="fnotes_det mt_1">
+                            <span class="text_10 grey_color_one m_0 pr_2">pradeep.singh</span> <span
+                              class="text_10 grey_color_one m_0">03/15/2021 ● 17:45 PM</span>
+                          </div>
+                        </div>
+                        <div class="fnotes_action">
+                          <span><img src="./images/icons/ic-remove-copy-11.svg" alt="ic-remove-copy-11" /></span>
+                        </div>
+                      </div>
+                      <div class="fnotes_wrap d-flex pb_1 pt_1">
+                        <div class="fnotes_title pr_1">
+                          <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                          <div class="fnotes_det mt_1">
+                            <span class="text_10 grey_color_one m_0 pr_2 grey_color_one">pradeep.singh</span> <span
+                              class="text_10 grey_color_one m_0 grey_color_one">03/15/2021 ● 17:45 PM</span>
+                          </div>
+                        </div>
+                        <div class="fnotes_action">
+                          <span><img src="./images/icons/ic-remove-copy-11.svg" alt="ic-remove-copy-11" /></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li><span><img src="./images/icons/ic-mail-2.svg" alt="ic-mail-2" /></span></li>
+                <li><span><img src="./images/icons/ic-refresh.svg" alt="ic-refresh" /></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="custom_tr row">
+              <div class="custom_td w_custom_4"><input type="checkbox" checked="checked"></div>
+            <div class="custom_td w_custom_12">Carmelita Marsham <br> <span>123456</span></div>
+            <div class="custom_td w_custom_6 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_8 text_center">AUTO CLUB SERVICES INC. (AAA)</div>
+            <div class="custom_td w_custom_6 text_center">379720</div>
+            <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+            <div class="custom_td w_custom_14 text_center">Reactive</div>
+            <div class="custom_td w_custom_6 text_center">—</div>
+            <div class="custom_td w_custom_6 text_center">—</div>
+            <div class="custom_td w_custom_8 text_center">—</div>
+            <div class="custom_td w_custom_6 text_center">$ 30</div>
+            <div class="custom_td w_custom_6 text_center">$ 37.5</div>
+            <div class="slider_left">
+              <ul>
+                <li class="arrow_left"><span><img src="./images/icons/ic-expand-more.svg" alt="ic-expand-more" /></span>
+                </li>
+                <li class="open_popup">
+                  <span><img src="./images/icons/ic-comment.svg" alt="ic-comment" /></span>
+                  <div class="followup_notes action_popup">
+                    <div class="fnotes_header pb_1 d-flex align-items-center">
+                      <h5 class="m_0 text_12 font_500 primary_text_color">PO Follow Up Notes</h5>
+                      <a href="" class="ml_auto text_12 font_500">Add</a>
+                      <a href="" class="ml_2 text_12 font_500 close_popup"><img src="./images/icons/ic-close.svg"
+                          alt="ic-close" /></a>
+                    </div>
+                    <div class="fnotes_list ">
+                      <div class="fnotes_wrap d-flex pb_1 pt_1">
+                        <div class="fnotes_title pr_1">
+                          <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                          <div class="fnotes_det mt_1">
+                            <span class="text_10 grey_color_one m_0 pr_2">pradeep.singh</span> <span
+                              class="text_10 grey_color_one m_0">03/15/2021 ● 17:45 PM</span>
+                          </div>
+                        </div>
+                        <div class="fnotes_action">
+                          <span><img src="./images/icons/ic-remove-copy-11.svg" alt="ic-remove-copy-11" /></span>
+                        </div>
+                      </div>
+                      <div class="fnotes_wrap d-flex pb_1 pt_1">
+                        <div class="fnotes_title pr_1">
+                          <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                          <div class="fnotes_det mt_1">
+                            <span class="text_10 grey_color_one m_0 pr_2 grey_color_one">pradeep.singh</span> <span
+                              class="text_10 grey_color_one m_0 grey_color_one">03/15/2021 ● 17:45 PM</span>
+                          </div>
+                        </div>
+                        <div class="fnotes_action">
+                          <span><img src="./images/icons/ic-remove-copy-11.svg" alt="ic-remove-copy-11" /></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li><span><img src="./images/icons/ic-mail-2.svg" alt="ic-mail-2" /></span></li>
+                <li><span><img src="./images/icons/ic-refresh.svg" alt="ic-refresh" /></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="custom_tr row">
+              <div class="custom_td w_custom_4"><input type="checkbox" checked="checked"></div>
+            <div class="custom_td w_custom_12">Carmelita Marsham <br> <span>123456</span></div>
+            <div class="custom_td w_custom_6 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_8 text_center">AUTO CLUB SERVICES INC. (AAA)</div>
+            <div class="custom_td w_custom_6 text_center">379720</div>
+            <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+            <div class="custom_td w_custom_14 text_center">Reactive</div>
+            <div class="custom_td w_custom_6 text_center">—</div>
+            <div class="custom_td w_custom_6 text_center">—</div>
+            <div class="custom_td w_custom_8 text_center">—</div>
+            <div class="custom_td w_custom_6 text_center">$ 30</div>
+            <div class="custom_td w_custom_6 text_center">$ 37.5</div>
+            <div class="slider_left">
+              <ul>
+                <li class="arrow_left"><span><img src="./images/icons/ic-expand-more.svg" alt="ic-expand-more" /></span>
+                </li>
+                <li class="open_popup">
+                  <span><img src="./images/icons/ic-comment.svg" alt="ic-comment" /></span>
+                  <div class="followup_notes action_popup">
+                    <div class="fnotes_header pb_1 d-flex align-items-center">
+                      <h5 class="m_0 text_12 font_500 primary_text_color">PO Follow Up Notes</h5>
+                      <a href="" class="ml_auto text_12 font_500">Add</a>
+                      <a href="" class="ml_2 text_12 font_500 close_popup"><img src="./images/icons/ic-close.svg"
+                          alt="ic-close" /></a>
+                    </div>
+                    <div class="fnotes_list ">
+                      <div class="fnotes_wrap d-flex pb_1 pt_1">
+                        <div class="fnotes_title pr_1">
+                          <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                          <div class="fnotes_det mt_1">
+                            <span class="text_10 grey_color_one m_0 pr_2">pradeep.singh</span> <span
+                              class="text_10 grey_color_one m_0">03/15/2021 ● 17:45 PM</span>
+                          </div>
+                        </div>
+                        <div class="fnotes_action">
+                          <span><img src="./images/icons/ic-remove-copy-11.svg" alt="ic-remove-copy-11" /></span>
+                        </div>
+                      </div>
+                      <div class="fnotes_wrap d-flex pb_1 pt_1">
+                        <div class="fnotes_title pr_1">
+                          <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                          <div class="fnotes_det mt_1">
+                            <span class="text_10 grey_color_one m_0 pr_2 grey_color_one">pradeep.singh</span> <span
+                              class="text_10 grey_color_one m_0 grey_color_one">03/15/2021 ● 17:45 PM</span>
+                          </div>
+                        </div>
+                        <div class="fnotes_action">
+                          <span><img src="./images/icons/ic-remove-copy-11.svg" alt="ic-remove-copy-11" /></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li><span><img src="./images/icons/ic-mail-2.svg" alt="ic-mail-2" /></span></li>
+                <li><span><img src="./images/icons/ic-refresh.svg" alt="ic-refresh" /></span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="custom_tr row">
+              <div class="custom_td w_custom_4"><input type="checkbox" checked="checked"></div>
+            <div class="custom_td w_custom_12">Carmelita Marsham <br> <span>123456</span></div>
+            <div class="custom_td w_custom_6 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_8 text_center">AUTO CLUB SERVICES INC. (AAA)</div>
+            <div class="custom_td w_custom_6 text_center">379720</div>
+            <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+            <div class="custom_td w_custom_14 text_center">Reactive</div>
+            <div class="custom_td w_custom_6 text_center">—</div>
+            <div class="custom_td w_custom_6 text_center">—</div>
+            <div class="custom_td w_custom_8 text_center">—</div>
+            <div class="custom_td w_custom_6 text_center">$ 30</div>
+            <div class="custom_td w_custom_6 text_center">$ 37.5</div>
+            <div class="slider_left">
+              <ul>
+                <li class="arrow_left"><span><img src="./images/icons/ic-expand-more.svg" alt="ic-expand-more" /></span>
+                </li>
+                <li class="open_popup">
+                  <span><img src="./images/icons/ic-comment.svg" alt="ic-comment" /></span>
+                  <div class="followup_notes action_popup">
+                    <div class="fnotes_header pb_1 d-flex align-items-center">
+                      <h5 class="m_0 text_12 font_500 primary_text_color">PO Follow Up Notes</h5>
+                      <a href="" class="ml_auto text_12 font_500">Add</a>
+                      <a href="" class="ml_2 text_12 font_500 close_popup"><img src="./images/icons/ic-close.svg"
+                          alt="ic-close" /></a>
+                    </div>
+                    <div class="fnotes_list ">
+                      <div class="fnotes_wrap d-flex pb_1 pt_1">
+                        <div class="fnotes_title pr_1">
+                          <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                          <div class="fnotes_det mt_1">
+                            <span class="text_10 grey_color_one m_0 pr_2">pradeep.singh</span> <span
+                              class="text_10 grey_color_one m_0">03/15/2021 ● 17:45 PM</span>
+                          </div>
+                        </div>
+                        <div class="fnotes_action">
+                          <span><img src="./images/icons/ic-remove-copy-11.svg" alt="ic-remove-copy-11" /></span>
+                        </div>
+                      </div>
+                      <div class="fnotes_wrap d-flex pb_1 pt_1">
+                        <div class="fnotes_title pr_1">
+                          <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                          <div class="fnotes_det mt_1">
+                            <span class="text_10 grey_color_one m_0 pr_2 grey_color_one">pradeep.singh</span> <span
+                              class="text_10 grey_color_one m_0 grey_color_one">03/15/2021 ● 17:45 PM</span>
+                          </div>
+                        </div>
+                        <div class="fnotes_action">
+                          <span><img src="./images/icons/ic-remove-copy-11.svg" alt="ic-remove-copy-11" /></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li><span><img src="./images/icons/ic-mail-2.svg" alt="ic-mail-2" /></span></li>
+                <li><span><img src="./images/icons/ic-refresh.svg" alt="ic-refresh" /></span></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="rcs_footer py_4 text_right">
+      <button class="secondary_btn">
+        Reset
+      </button>
+      <button class="primary_btn ml_3">
+        Assign
+      </button>
+    </div>
+  </div>
+
+  <!-- modal -->
+  <div class="custom_modal notes_modal " id="follow_up_comment">
+    <div class="custom_modal_wrap">
+      <div class="custom_modal_header">
+        <h5 class="modal-title">PO Follow Up Notes</h5>
+        <button class="close">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14"
+              viewBox="0 0 14 14">
+              <defs>
+                <path id="x997k9vwqa"
+                  d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7z">
+                </path>
+              </defs>
+              <g fill="none" fill-rule="evenodd">
+                <g>
+                  <g>
+                    <g>
+                      <g transform="translate(-1146 -528) translate(496 505) translate(1 17) translate(649 6)">
+                        <use fill="#4A4A4A" xlink:href="#x997k9vwqa"></use>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div class="custom_modal_body">
+        <div class="form_control mb-3">
+          <label for="">Comments </label>
+          <textarea rows="4" placeholder="Comments"></textarea>
+        </div>
+        <div class="text_right mt_2">
+          <button class="secondary_btn mr_2">Cancel</button>
+          <button class="primary_btn">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal -->
+  <div class="custom_modal email_msg " id="email_msg">
+    <div class="custom_modal_wrap">
+      <div class="custom_modal_header">
+        <h5 class="modal-title">Email Message</h5>
+        <button class="close">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14"
+              viewBox="0 0 14 14">
+              <defs>
+                <path id="x997k9vwqa"
+                  d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7z">
+                </path>
+              </defs>
+              <g fill="none" fill-rule="evenodd">
+                <g>
+                  <g>
+                    <g>
+                      <g transform="translate(-1146 -528) translate(496 505) translate(1 17) translate(649 6)">
+                        <use fill="#4A4A4A" xlink:href="#x997k9vwqa"></use>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div class="custom_modal_body">
+        <div class="email_msg_head">
+          <h4 class="font_16 font_500">Reactive PO</h4>
+          <ul>
+            <li>
+              <img src="./images/icons/ic-grey-mail.svg" alt="ic-grey-mail" />
+            </li>
+            <li>
+              <img src="./images/icons/ic-replay.svg" alt="ic-replay" />
+            </li>
+            <li>
+              <img src="./images/icons/ic-replay-all.svg" alt="ic-replay-all" />
+            </li>
+            <li>
+              <img src="./images/icons/ic-forward.svg" alt="ic-forward" />
+            </li>
+            <li>
+              <img src="./images/icons/ic-fla-grey.svg" alt="ic-fla-grey" />
+            </li>
+          </ul>
+        </div>
+        <div class="email_msg_headDetail">
+          <div class="d-flex align-items-center mb_2">
+            <div class="em_from">
+              <h5 class="text_14 font_500 m_0">
+                From:
+              </h5>
+              <div class="ml_2">
+                <p class="text_14 mb_1">
+                  darshana.joshi@collabera.com
+                </p>
+                <small class="text_12">
+                  Wed 10-03-2021 23:53
+                </small>
+              </div>
+
+
+            </div>
+            <div class="em_attached ml_auto d-flex align-items-center">
+              <span><img src="./images/icons/ic-attached.svg" alt="attached" /></span>
+              <p class="mb_0 ml_3 mr_4 text_14 font_600">Attachment.docx</p>
+              <span><img src="./images/icons/ic-download-3.svg" alt="download" /></span>
+            </div>
+          </div>
+
+          <div class="form_control tags_form required">
+            <div class="form_ptsTag mb_2">
+              <label for=""> Cc </label>
+              <div class="pts_input">
+                <div class="pts_tagsWrap">
+                  <div class="pts_tag">
+                    vinay.joshi@collabera.com
+                    <span><img src="./images/icons/ic-popup-close.svg" alt="ic-popup-close"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form_ptsTag">
+              <label for=""> Bcc </label>
+              <div class="pts_input">
+                <div class="pts_tagsWrap">
+                  <div class="pts_tag">
+                    vinay.joshi@collabera.com
+                    <span><img src="./images/icons/ic-popup-close.svg" alt="ic-popup-close"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="email_msg_body">
+          <p class="pb_2">Hi </p>
+          <div class="em_detail p_2 pt_4">
+            <p>Consultant List</p>
+            <div class="table_wrap accordion" id="accordion1">
+              <div class="custom_tr accordion-group">
+                <div class="custom_th w_custom_20">
+                  Candidate Name
+                </div>
+                <div class="custom_th w_custom_10 text_center">
+                  DOJ
+                </div>
+                <div class="custom_th w_custom_10 text_center">
+                  Client
+                </div>
+                <div class="custom_th w_custom_10 text_center">
+                  PO No.
+                </div>
+                <div class="custom_th w_custom_15 text_center">
+                  PO Start Date
+                </div>
+                <div class="custom_th w_custom_15 text_center">
+                  PO Start Date
+                </div>
+                <div class="custom_th w_custom_20 text_center">
+                  PO Extension Status
+                </div>
+              </div>
+              <div class="custom_tr row">
+                <div class="custom_td w_custom_20">Carmelita Marsham <br> <span>123456</span></div>
+                <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+                <div class="custom_td w_custom_10 text_center">Wells Fargo</div>
+                <div class="custom_td w_custom_10 text_center">2232</div>
+                <div class="custom_td w_custom_15 text_center">06/30/2021</div>
+                <div class="custom_td w_custom_15 text_center">06/30/2021</div>
+                <div class="custom_td w_custom_20 text_center">Reactive</div>
+              </div>
+              <div class="custom_tr row">
+                <div class="custom_td w_custom_20">Carmelita Marsham <br> <span>123456</span></div>
+                <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+                <div class="custom_td w_custom_10 text_center">Wells Fargo</div>
+                <div class="custom_td w_custom_10 text_center">2232</div>
+                <div class="custom_td w_custom_15 text_center">06/30/2021</div>
+                <div class="custom_td w_custom_15 text_center">06/30/2021</div>
+                <div class="custom_td w_custom_20 text_center">Reactive</div>
+              </div>
+              <div class="custom_tr row">
+                <div class="custom_td w_custom_20">Carmelita Marsham <br> <span>123456</span></div>
+                <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+                <div class="custom_td w_custom_10 text_center">Wells Fargo</div>
+                <div class="custom_td w_custom_10 text_center">2232</div>
+                <div class="custom_td w_custom_15 text_center">06/30/2021</div>
+                <div class="custom_td w_custom_15 text_center">06/30/2021</div>
+                <div class="custom_td w_custom_20 text_center">Reactive</div>
+              </div>
+              <div class="custom_tr row">
+                <div class="custom_td w_custom_20">Carmelita Marsham <br> <span>123456</span></div>
+                <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+                <div class="custom_td w_custom_10 text_center">Wells Fargo</div>
+                <div class="custom_td w_custom_10 text_center">2232</div>
+                <div class="custom_td w_custom_15 text_center">06/30/2021</div>
+                <div class="custom_td w_custom_15 text_center">06/30/2021</div>
+                <div class="custom_td w_custom_20 text_center">Reactive</div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="pts_footer">
+          <div class="pts_signature">
+            <p>Regards,</p>
+            <h5>Darshana Joshi,</h5>
+            <p>Operations Executive</p>
+            <p>T : 1234567890</p>
+          </div>
+          <div class="pts_footerText">
+            How am I doing? I want to exceed your expectations and I welcome your feedback (<a
+              href="https://apps.collabera.com/feedback/?eid=darshana.joshi">https://apps.collabera.com/feedback/?eid=darshana.joshi</a>
+            ). <br>
+            If you have any concerns and would prefer an escalation please email my manager <a
+              href="mailto:brett.oxenhandler@collabera.com">Brett Oxenhandler(brett.oxenhandler@collabera.com)</a> or
+            contact our centre of excellence at <b>1-866 398 6484</b>
+          </div>
+        </div>
+      </div>
+      <div class="pts_btnWrap text-right px_4 pb_3">
+        <button>Cancel</button>
+        <button class="pts_submit">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal -->
+  <div class="custom_modal consultant_modal" id="consultant_modal">
+    <div class="custom_modal_wrap">
+      <div class="custom_modal_header">
+        <h5 class="modal-title">Consultant List</h5>
+        <button class="close">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14"
+              viewBox="0 0 14 14">
+              <defs>
+                <path id="x997k9vwqa"
+                  d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7z">
+                </path>
+              </defs>
+              <g fill="none" fill-rule="evenodd">
+                <g>
+                  <g>
+                    <g>
+                      <g transform="translate(-1146 -528) translate(496 505) translate(1 17) translate(649 6)">
+                        <use fill="#4A4A4A" xlink:href="#x997k9vwqa"></use>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div class="custom_modal_body">
+        <div class="table_wrap accordion p_3" id="accordion1">
+          <div class="custom_tr accordion-group">
+            <div class="custom_th w_custom_12">
+              Candidate Name
+            </div>
+            <div class="custom_th w_custom_11 text_center">
+              Client
+            </div>
+            <div class="custom_th w_custom_10 text_center">
+              DOJ
+            </div>
+            <div class="custom_th w_custom_10 text_center">LWD
+            </div>
+            <div class="custom_th w_custom_10 text_center">
+              PO No.
+            </div>
+            <div class="custom_th w_custom_12 text_center">
+              Consultant Type
+            </div>
+            <div class="custom_th w_custom_10 text_center">
+              Status
+            </div>
+            <div class="custom_th w_custom_15 text_center">
+              Project Name
+            </div>
+            <div class="custom_th w_custom_10 text_center">
+              Region
+            </div>
+          </div>
+          <div class="custom_tr row">
+            <div class="custom_td w_custom_12">Carmelita Marsham <br> <span>123456</span></div>
+            <div class="custom_td w_custom_11 text_center">Wells Fargo</div>
+            <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+            <div class="custom_td w_custom_10 text_center">2232</div>
+            <div class="custom_td w_custom_12 text_center">Contractor</div>
+            <div class="custom_td w_custom_10 text_center">Active</div>
+            <div class="custom_td w_custom_15 text_center">David Yun FY18-20 Collabera Shooter Gameplay Anima</div>
+            <div class="custom_td w_custom_10 text_center">Charlotte-Territory</div>
+          </div>
+          <div class="custom_tr row">
+            <div class="custom_td w_custom_12">Carmelita Marsham <br> <span>123456</span></div>
+            <div class="custom_td w_custom_11 text_center">Wells Fargo</div>
+            <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+            <div class="custom_td w_custom_10 text_center">2232</div>
+            <div class="custom_td w_custom_12 text_center">Contractor</div>
+            <div class="custom_td w_custom_10 text_center">Active</div>
+            <div class="custom_td w_custom_15 text_center">David Yun FY18-20 Collabera Shooter Gameplay Anima</div>
+            <div class="custom_td w_custom_10 text_center">Charlotte-Territory</div>
+          </div>
+          <div class="custom_tr row">
+            <div class="custom_td w_custom_12">Mark Hodges <br> <span>100033</span></div>
+            <div class="custom_td w_custom_11 text_center">Accenture</div>
+            <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+            <div class="custom_td w_custom_10 text_center">2232</div>
+            <div class="custom_td w_custom_12 text_center">Full-time,NonExempt-Hourly</div>
+            <div class="custom_td w_custom_10 text_center red_error_color">Terminated</div>
+            <div class="custom_td w_custom_15 text_center">Call Center Representative - Regular project</div>
+            <div class="custom_td w_custom_10 text_center">R1 - Seattle-Downtown</div>
+          </div>
+          <div class="custom_tr row">
+            <div class="custom_td w_custom_12">Carmelita Marsham <br> <span>123456</span></div>
+            <div class="custom_td w_custom_11 text_center">Wells Fargo</div>
+            <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+            <div class="custom_td w_custom_10 text_center">2232</div>
+            <div class="custom_td w_custom_12 text_center">Contractor</div>
+            <div class="custom_td w_custom_10 text_center">Active</div>
+            <div class="custom_td w_custom_15 text_center">David Yun FY18-20 Collabera Shooter Gameplay Anima</div>
+            <div class="custom_td w_custom_10 text_center">Charlotte-Territory</div>
+          </div>
+          <div class="custom_tr row">
+            <div class="custom_td w_custom_12">Mark Hodges <br> <span>100033</span></div>
+            <div class="custom_td w_custom_11 text_center">Accenture</div>
+            <div class="custom_td w_custom_10 text_center">01/07/2021</div>
+            <div class="custom_td w_custom_10 text_center">06/30/2021</div>
+            <div class="custom_td w_custom_10 text_center">2232</div>
+            <div class="custom_td w_custom_12 text_center">Full-time,NonExempt-Hourly</div>
+            <div class="custom_td w_custom_10 text_center red_error_color">Terminated</div>
+            <div class="custom_td w_custom_15 text_center">Call Center Representative - Regular project</div>
+            <div class="custom_td w_custom_10 text_center">R1 - Seattle-Downtown</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal -->
+  <!-- main wrapper -->
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+<script src="./js/script.js"></script>
+<script>
+  // slider
+  $(document).ready(function () {
+    $(".arrow_left").on("click", function () {
+      $(this).parent().parent().toggleClass("active");
+    })
+  });
+</script>
+
+</html>
