@@ -1,0 +1,998 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document List - Send Offer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="./css/styleGuideOmne.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <!-- top omne bar -->
+    <div class="omne_bar">
+        <div class="custom_container">
+            <img src="./images/omne_with_tagline_rgb.png" title="omne_with_tagline_rgb" />
+        </div>
+    </div>
+    <!-- top omne bar -->
+
+    <!-- main nav bar -->
+    <div class="nav_menu">
+        <div class="custom_container">
+            <div class="row">
+                <div class="side_menu">
+                    <img src="./images/icons/ic-menu.svg" alt="ic-menu" />
+                </div>
+                <div class="page_title text_16 font_500 p_3">
+                    Esign Services
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-tools.svg" alt="ic-tools" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-notification.svg" alt="ic-notification" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-login-profile-image.png" alt="ic-login-profile-image" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main nav bar -->
+
+    <!-- sidebar_left -->
+    <div class="leftSideBar pt_4 pb_4 pl_2 pr_2">
+        <div class="sideNavItems">
+            <ul>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-dashboard.svg"
+                                alt="ic-dashboard" /></span>
+                        <span class="text_hid">Dashnboard</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14 active"><span><img src="./images/icons/ic-po-extension-white.svg"
+                                alt="ic-po-extension-white" /></span> <span class="text_hid"> PO Extension</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-termination-wf.svg"
+                                alt="ic-termination-wf" /></span> <span class="text_hid">Termination WF</span> </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- sidebar_left -->
+
+    <!-- main wrapper -->
+    <div class="main_wrapper custom_container">
+        <div class="status_overview">
+            <div class="status_header">
+                <h4 class="text_16 font_600 mt_0 mb_0 primary_text_color">
+                    Status Overview
+                </h4>
+                <div class="rcs_search ml_auto position-relative">
+                    <input type="search" placeholder="Search by Collabera ID/Candidate Name/Client Name"
+                        class="text_14 font_400">
+                    <span class="advance_search"><img src="./images/icons/ic-filter-arrow.svg"
+                            alt="ic-filter-arrow"></span>
+                    <span><img src="./images/icons/ic-search.svg" alt="ic-search"></span>
+                    <div class="advance_search_wrap">
+                        <div class="as_head p_2 d-flex align-items-center">
+                            <h4 class="text_16 font_500 primary_color m_0">Advanced Search</h4>
+                            <span class="ml_auto advance_search_close cursor_pointer"><img
+                                    src="./images/icons/ic-close.svg" alt="close"></span>
+                        </div>
+                        <div class="as_body p_2">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="form_control required icon ml_auto p-0">
+                                        <label for="">PO Start Date</label>
+                                        <input type="text" id="date" class="text_12" value="06/02/2021 - 06/08/2021">
+                                        <span class="icon_img"><img src="./images/icons/ic-callendar_.svg"
+                                                alt="calendar"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form_control required icon ml_auto p-0">
+                                        <label for="">PO Start Date</label>
+                                        <input type="text" id="date" class="text_12" value="06/02/2021 - 06/08/2021">
+                                        <span class="icon_img"><img src="./images/icons/ic-callendar_.svg"
+                                                alt="calendar"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">Collabera ID/SSN</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">Candidate Name</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">Employee Type</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">Employee Category</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">Employee Status</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">Visa Type</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">Client Name</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">End Client Name</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">Project Location</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">Vendor Code</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">Vendor Name</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">Billing Company</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form_control dropdown required w_100">
+                                        <label for="">Paying Company</label>
+                                        <select name="" id="">
+                                            <option value=""> </option>
+                                            <option value="">Reject</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row m_2 mb_0">
+                                <button class="secondary_btn text_14 font_400 ml_auto">
+                                    Reset
+                                </button>
+                                <button class="primary_btn text_14 font_400 ml_2">
+                                    Apply
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="status_body pt_2 pb_4">
+                <div class="row m_0">
+                    <div class="col-md-4">
+                        <div class="status_chart">
+                            <div class="status_chart_head p_2">
+                                <h5 class="text_14 font_500 mt_0 mb_0 primary_text_color">Offers Release (W2)</h5>
+                            </div>
+                            <div class="status_chart_body p_2 pos-relative">
+                                <img src="./images/offers_release_chart.png" alt="offers_release_chart" />
+                                <div class="chart_pop">
+                                    <h6 class="font_500 text_14 m_0">Partially Completed</h6>
+                                    <img src="./images/partially_completed_chart.png" alt="partially_completed_chart" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                            <div class="status_chart">
+                                <div class="status_chart_head p_2">
+                                    <h5 class="text_14 font_500 mt_0 mb_0 primary_text_color">Work Order Release (C2C)</h5>
+                                </div>
+                                <div class="status_chart_body p_2 pos-relative">
+                                    <img src="./images/offers_release_chart.png" alt="offers_release_chart" />
+                                    <div class="chart_pop">
+                                        <h6 class="font_500 text_14 m_0">Partially Completed</h6>
+                                        <img src="./images/partially_completed_chart.png" alt="partially_completed_chart" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="redo_check_status po_candidate po_extention p_3 mt_3">
+            <div class="rcs_head">
+                <h4 class="text_16 font_600 mt_0 mb_0 primary_text_color">
+                    Work Order Release - Pending
+                </h4>
+                <p class="text_14 m_0 pl_4">5 Records Found</p>
+                <div class="xl_icon ml_auto pos-relative">
+                    <span class="open_filter cursor_pointer"><img src="./images/icons/ic-topfilter-bottom.svg"
+                            alt="ic-topfilter-bottom"></span>
+                    <span class="ml_2"><img src="./images/icons/ic-solid-table.svg" alt="ic-solid-table"></span>
+                    <span class="ml_2"><img src="./images/icons/ic-excel.svg" alt="ic-excel"></span>
+                    <div class="filter_wrap table_columns">
+                        <div class="filter_head">
+                            <h6 class="text_14 font_500 primary_text_color my_0">
+                                Table columns
+                            </h6>
+                            <span class="close_popup cursor_pointer"><img src="./images/icons/ic-popup-close.svg"
+                                    alt="ic-popup-close" /></span>
+                        </div>
+                        <div class="filter_body py_2">
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="candidateName" />
+                                <label for="candidateName" class="text_12 font_500 mb_0">Candidate Name</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="client" />
+                                <label for="client" class="text_12 font_500 mb_0">Client</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="doj" />
+                                <label for="doj" class="text_12 font_500 mb_0">DOJ</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="lwd" />
+                                <label for="lwd" class="text_12 font_500 mb_0">LWD</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="poNo" />
+                                <label for="poNo" class="text_12 font_500 mb_0">PO. NO.</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="poType" />
+                                <label for="poType" class="text_12 font_500 mb_0">PO Type</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="poStart" />
+                                <label for="poStart" class="text_12 font_500 mb_0">PO Start Date</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="poEnd" />
+                                <label for="poEnd" class="text_12 font_500 mb_0">PO End Date</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="status" />
+                                <label for="status" class="text_12 font_500 mb_0">Status</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="poMoveBill" />
+                                <label for="poMoveBill" class="text_12 font_500 mb_0">PO Moved to Billing</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="priority" />
+                                <label for="priority" class="text_12 font_500 mb_0">Priority</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="playingCompany" />
+                                <label for="playingCompany" class="text_12 font_500 mb_0">Paying Company</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="billingCompany" />
+                                <label for="billingCompany" class="text_12 font_500 mb_0">Billing Company</label>
+                            </div>
+                            <div class="form_control py_1 d-flex align-items-center">
+                                <input type="checkbox" class="w_custom_20" id="projectName" />
+                                <label for="projectName" class="text_12 font_500 mb_0">Project Name</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rcs_body em_detail reactive_po_ pt_4 no_border">
+                <div class="table_wrap accordion" id="accordion1">
+                    <div class="custom_tr accordion-group">
+                        <div class="custom_th w_custom_14">
+                            Candidate Name
+                        </div>
+                        <div class="custom_th w_custom_10">
+                            Employee Type
+                        </div>
+                        <div class="custom_th w_custom_14">
+                            Client/End Client
+                        </div>
+                        <div class="custom_th w_custom_10">
+                            Est. Start Date
+                        </div>
+                        <div class="custom_th w_custom_10">
+                            Project Location
+                        </div>
+                        <div class="custom_th w_custom_10">
+                            Recruiter
+                        </div>
+                        <div class="custom_th w_custom_10">
+                            Ops. Executive
+                        </div>
+                        <div class="custom_th w_custom_10">
+                            Released By/On
+                        </div>
+                        <div class="custom_th w_custom_10">Status
+                        </div>
+                    </div>
+                    <div class="custom_tr row">
+                        <div class="custom_td w_custom_14">Carmelita Marsham</div>
+                        <div class="custom_td w_custom_10">Full Time</div>
+                        <div class="custom_td w_custom_14">IB000 - IBM <br> <span
+                                class="text_12 grey_color_one font_400">VE034 - Versant Power</span></div>
+                        <div class="custom_td w_custom_10">01/07/2021</div>
+                        <div class="custom_td w_custom_10">New Jersey</div>
+                        <div class="custom_td w_custom_10">rahul.shah</div>
+                        <div class="custom_td w_custom_10">harshal.shah</div>
+                        <div class="custom_td w_custom_10">arpit.sharma <br> <span
+                                class="text_12 grey_color_one font_400">01/02/2021</span></div>
+                        <div class="custom_td w_custom_10">Signed <br> <span
+                                class="text_12 grey_color_one font_400">01/04/2021</span></div>
+                        <div class="slider_left">
+                            <ul>
+                                <li class="arrow_left"><span><img src="./images/icons/ic-expand-more.svg"
+                                            alt="ic-expand-more" /></span>
+                                </li>
+                                <li class="open_popup">
+                                    <span><img src="./images/icons/ic-eye.svg" alt="ic-eye.svg" /></span>
+                                    <div class="followup_notes action_popup">
+                                        <div class="fnotes_header pb_1 d-flex align-items-center">
+                                            <h5 class="m_0 text_12 font_500 primary_text_color">PO Follow Up Notes</h5>
+                                            <a href="" class="ml_auto text_12 font_500">Add</a>
+                                            <a href="" class="ml_2 text_12 font_500 close_popup"><img
+                                                    src="./images/icons/ic-close.svg" alt="ic-close" /></a>
+                                        </div>
+                                        <div class="fnotes_list ">
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2">pradeep.singh</span>
+                                                        <span class="text_10 grey_color_one m_0">03/15/2021 ● 17:45
+                                                            PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2 grey_color_one">pradeep.singh</span>
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 grey_color_one">03/15/2021
+                                                            ● 17:45 PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="custom_tr row esign_reject">
+                        <div class="custom_td w_custom_14">Carmelita Marsham</div>
+                        <div class="custom_td w_custom_10">Full Time</div>
+                        <div class="custom_td w_custom_14">IB000 - IBM <br> <span
+                                class="text_12 grey_color_one font_400">VE034 - Versant Power</span></div>
+                        <div class="custom_td w_custom_10">01/07/2021</div>
+                        <div class="custom_td w_custom_10">New Jersey</div>
+                        <div class="custom_td w_custom_10">rahul.shah</div>
+                        <div class="custom_td w_custom_10">harshal.shah</div>
+                        <div class="custom_td w_custom_10">arpit.sharma <br> <span
+                                class="text_12 grey_color_one font_400">01/02/2021</span></div>
+                        <div class="custom_td w_custom_10">
+                            <div class="rejected_info  open_popup"><img
+                                    src="./images/icons/ic-rejected-info-copy-218.svg" alt="ic-rejected-info-copy" />
+                                <div class="action_popup popup_level_2">
+                                    <div class="popup_header p_2 d-flex align-items-center">
+                                        <h6>Rejection Notes </h6>
+                                        <span class="close_popup cursor_pointer"><img
+                                                src="./images/icons/ic-popup-close.svg" alt="ic-popup-close" /></span>
+                                    </div>
+                                    <div class="popup_body">
+                                        <div class="row">
+                                            <div class="col-sm-6 pt_3 col_right_offset_6 rej_req_info no_border">
+                                                <p>Signed Date</p>
+                                                <small>03/17/2021 ● 17:45 PM</small>
+                                            </div>
+                                            <div class="col-sm-6 rej_req_info border-right">
+                                                <p>Rejected Date</p>
+                                                <small>03/15/2021 ● 17:45 PM</small>
+                                            </div>
+                                            <div class="col-sm-6 rej_req_info">
+                                                <p>Rejected By</p>
+                                                <small>darshana.joshi@collabera.com</small>
+                                            </div>
+                                            <div class="col-sm-12 rej_req_info">
+                                                <p>Notes</p>
+                                                <small>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industry's standard dummy text
+                                                    ever since the 1500s, when an unknown printer took a galley of type
+                                                    and scrambled it to make a type specimen book.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider_left">
+                            <ul>
+                                <li class="arrow_left"><span><img src="./images/icons/ic-expand-more.svg"
+                                            alt="ic-expand-more" /></span>
+                                </li>
+                                <li class="open_popup">
+                                    <span><img src="./images/icons/ic-eye.svg" alt="ic-eye.svg" /></span>
+                                    <div class="followup_notes action_popup">
+                                        <div class="fnotes_header pb_1 d-flex align-items-center">
+                                            <h5 class="m_0 text_12 font_500 primary_text_color">PO Follow Up Notes</h5>
+                                            <a href="" class="ml_auto text_12 font_500">Add</a>
+                                            <a href="" class="ml_2 text_12 font_500 close_popup"><img
+                                                    src="./images/icons/ic-close.svg" alt="ic-close" /></a>
+                                        </div>
+                                        <div class="fnotes_list ">
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2">pradeep.singh</span>
+                                                        <span class="text_10 grey_color_one m_0">03/15/2021 ● 17:45
+                                                            PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2 grey_color_one">pradeep.singh</span>
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 grey_color_one">03/15/2021
+                                                            ● 17:45 PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="custom_tr row">
+                        <div class="custom_td w_custom_14">Carmelita Marsham</div>
+                        <div class="custom_td w_custom_10">Full Time</div>
+                        <div class="custom_td w_custom_14">IB000 - IBM <br> <span
+                                class="text_12 grey_color_one font_400">VE034 - Versant Power</span></div>
+                        <div class="custom_td w_custom_10">01/07/2021</div>
+                        <div class="custom_td w_custom_10">New Jersey</div>
+                        <div class="custom_td w_custom_10">rahul.shah</div>
+                        <div class="custom_td w_custom_10">harshal.shah</div>
+                        <div class="custom_td w_custom_10">arpit.sharma <br> <span
+                                class="text_12 grey_color_one font_400">01/02/2021</span></div>
+                        <div class="custom_td w_custom_10">Signed <br> <span
+                                class="text_12 grey_color_one font_400">01/04/2021</span></div>
+                        <div class="slider_left">
+                            <ul>
+                                <li class="arrow_left"><span><img src="./images/icons/ic-expand-more.svg"
+                                            alt="ic-expand-more" /></span>
+                                </li>
+                                <li class="open_popup">
+                                    <span><img src="./images/icons/ic-eye.svg" alt="ic-eye.svg" /></span>
+                                    <div class="followup_notes action_popup">
+                                        <div class="fnotes_header pb_1 d-flex align-items-center">
+                                            <h5 class="m_0 text_12 font_500 primary_text_color">PO Follow Up Notes</h5>
+                                            <a href="" class="ml_auto text_12 font_500">Add</a>
+                                            <a href="" class="ml_2 text_12 font_500 close_popup"><img
+                                                    src="./images/icons/ic-close.svg" alt="ic-close" /></a>
+                                        </div>
+                                        <div class="fnotes_list ">
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2">pradeep.singh</span>
+                                                        <span class="text_10 grey_color_one m_0">03/15/2021 ● 17:45
+                                                            PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2 grey_color_one">pradeep.singh</span>
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 grey_color_one">03/15/2021
+                                                            ● 17:45 PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="custom_tr row">
+                        <div class="custom_td w_custom_14">Carmelita Marsham</div>
+                        <div class="custom_td w_custom_10">Full Time</div>
+                        <div class="custom_td w_custom_14">IB000 - IBM <br> <span
+                                class="text_12 grey_color_one font_400">VE034 - Versant Power</span></div>
+                        <div class="custom_td w_custom_10">01/07/2021</div>
+                        <div class="custom_td w_custom_10">New Jersey</div>
+                        <div class="custom_td w_custom_10">rahul.shah</div>
+                        <div class="custom_td w_custom_10">harshal.shah</div>
+                        <div class="custom_td w_custom_10">arpit.sharma <br> <span
+                                class="text_12 grey_color_one font_400">01/02/2021</span></div>
+                        <div class="custom_td w_custom_10">Signed <br> <span
+                                class="text_12 grey_color_one font_400">01/04/2021</span></div>
+                        <div class="slider_left">
+                            <ul>
+                                <li class="arrow_left"><span><img src="./images/icons/ic-expand-more.svg"
+                                            alt="ic-expand-more" /></span>
+                                </li>
+                                <li class="open_popup">
+                                    <span><img src="./images/icons/ic-eye.svg" alt="ic-eye.svg" /></span>
+                                    <div class="followup_notes action_popup">
+                                        <div class="fnotes_header pb_1 d-flex align-items-center">
+                                            <h5 class="m_0 text_12 font_500 primary_text_color">PO Follow Up Notes</h5>
+                                            <a href="" class="ml_auto text_12 font_500">Add</a>
+                                            <a href="" class="ml_2 text_12 font_500 close_popup"><img
+                                                    src="./images/icons/ic-close.svg" alt="ic-close" /></a>
+                                        </div>
+                                        <div class="fnotes_list ">
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2">pradeep.singh</span>
+                                                        <span class="text_10 grey_color_one m_0">03/15/2021 ● 17:45
+                                                            PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2 grey_color_one">pradeep.singh</span>
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 grey_color_one">03/15/2021
+                                                            ● 17:45 PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="custom_tr row">
+                        <div class="custom_td w_custom_14">Carmelita Marsham</div>
+                        <div class="custom_td w_custom_10">Full Time</div>
+                        <div class="custom_td w_custom_14">IB000 - IBM <br> <span
+                                class="text_12 grey_color_one font_400">VE034 - Versant Power</span></div>
+                        <div class="custom_td w_custom_10">01/07/2021</div>
+                        <div class="custom_td w_custom_10">New Jersey</div>
+                        <div class="custom_td w_custom_10">rahul.shah</div>
+                        <div class="custom_td w_custom_10">harshal.shah</div>
+                        <div class="custom_td w_custom_10">arpit.sharma <br> <span
+                                class="text_12 grey_color_one font_400">01/02/2021</span></div>
+                        <div class="custom_td w_custom_10">Signed <br> <span
+                                class="text_12 grey_color_one font_400">01/04/2021</span></div>
+                        <div class="slider_left">
+                            <ul>
+                                <li class="arrow_left"><span><img src="./images/icons/ic-expand-more.svg"
+                                            alt="ic-expand-more" /></span>
+                                </li>
+                                <li class="open_popup">
+                                    <span><img src="./images/icons/ic-eye.svg" alt="ic-eye.svg" /></span>
+                                    <div class="followup_notes action_popup">
+                                        <div class="fnotes_header pb_1 d-flex align-items-center">
+                                            <h5 class="m_0 text_12 font_500 primary_text_color">PO Follow Up Notes</h5>
+                                            <a href="" class="ml_auto text_12 font_500">Add</a>
+                                            <a href="" class="ml_2 text_12 font_500 close_popup"><img
+                                                    src="./images/icons/ic-close.svg" alt="ic-close" /></a>
+                                        </div>
+                                        <div class="fnotes_list ">
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2">pradeep.singh</span>
+                                                        <span class="text_10 grey_color_one m_0">03/15/2021 ● 17:45
+                                                            PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2 grey_color_one">pradeep.singh</span>
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 grey_color_one">03/15/2021
+                                                            ● 17:45 PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="custom_tr row">
+                        <div class="custom_td w_custom_14">Carmelita Marsham</div>
+                        <div class="custom_td w_custom_10">Full Time</div>
+                        <div class="custom_td w_custom_14">IB000 - IBM <br> <span
+                                class="text_12 grey_color_one font_400">VE034 - Versant Power</span></div>
+                        <div class="custom_td w_custom_10">01/07/2021</div>
+                        <div class="custom_td w_custom_10">New Jersey</div>
+                        <div class="custom_td w_custom_10">rahul.shah</div>
+                        <div class="custom_td w_custom_10">harshal.shah</div>
+                        <div class="custom_td w_custom_10">arpit.sharma <br> <span
+                                class="text_12 grey_color_one font_400">01/02/2021</span></div>
+                        <div class="custom_td w_custom_10">Signed <br> <span
+                                class="text_12 grey_color_one font_400">01/04/2021</span></div>
+                        <div class="slider_left">
+                            <ul>
+                                <li class="arrow_left"><span><img src="./images/icons/ic-expand-more.svg"
+                                            alt="ic-expand-more" /></span>
+                                </li>
+                                <li class="open_popup">
+                                    <span><img src="./images/icons/ic-eye.svg" alt="ic-eye.svg" /></span>
+                                    <div class="followup_notes action_popup">
+                                        <div class="fnotes_header pb_1 d-flex align-items-center">
+                                            <h5 class="m_0 text_12 font_500 primary_text_color">PO Follow Up Notes</h5>
+                                            <a href="" class="ml_auto text_12 font_500">Add</a>
+                                            <a href="" class="ml_2 text_12 font_500 close_popup"><img
+                                                    src="./images/icons/ic-close.svg" alt="ic-close" /></a>
+                                        </div>
+                                        <div class="fnotes_list ">
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2">pradeep.singh</span>
+                                                        <span class="text_10 grey_color_one m_0">03/15/2021 ● 17:45
+                                                            PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2 grey_color_one">pradeep.singh</span>
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 grey_color_one">03/15/2021
+                                                            ● 17:45 PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="custom_tr row">
+                        <div class="custom_td w_custom_14">Carmelita Marsham</div>
+                        <div class="custom_td w_custom_10">Full Time</div>
+                        <div class="custom_td w_custom_14">IB000 - IBM <br> <span
+                                class="text_12 grey_color_one font_400">VE034 - Versant Power</span></div>
+                        <div class="custom_td w_custom_10">01/07/2021</div>
+                        <div class="custom_td w_custom_10">New Jersey</div>
+                        <div class="custom_td w_custom_10">rahul.shah</div>
+                        <div class="custom_td w_custom_10">harshal.shah</div>
+                        <div class="custom_td w_custom_10">arpit.sharma <br> <span
+                                class="text_12 grey_color_one font_400">01/02/2021</span></div>
+                        <div class="custom_td w_custom_10">Signed <br> <span
+                                class="text_12 grey_color_one font_400">01/04/2021</span></div>
+                        <div class="slider_left">
+                            <ul>
+                                <li class="arrow_left"><span><img src="./images/icons/ic-expand-more.svg"
+                                            alt="ic-expand-more" /></span>
+                                </li>
+                                <li class="open_popup">
+                                    <span><img src="./images/icons/ic-eye.svg" alt="ic-eye.svg" /></span>
+                                    <div class="followup_notes action_popup">
+                                        <div class="fnotes_header pb_1 d-flex align-items-center">
+                                            <h5 class="m_0 text_12 font_500 primary_text_color">PO Follow Up Notes</h5>
+                                            <a href="" class="ml_auto text_12 font_500">Add</a>
+                                            <a href="" class="ml_2 text_12 font_500 close_popup"><img
+                                                    src="./images/icons/ic-close.svg" alt="ic-close" /></a>
+                                        </div>
+                                        <div class="fnotes_list ">
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2">pradeep.singh</span>
+                                                        <span class="text_10 grey_color_one m_0">03/15/2021 ● 17:45
+                                                            PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                            <div class="fnotes_wrap d-flex pb_1 pt_1">
+                                                <div class="fnotes_title pr_1">
+                                                    <p class="text_10 black_color_one m_0">Lorem Ipsum is simply dummy
+                                                        text of the printing and
+                                                        typesetting industry. Lorem Ipsum has been the industry's
+                                                        standard dummy text ever since the
+                                                        1500s, when an unknown printer took a galley of type and
+                                                        scrambled it to make a type
+                                                        specimen book.</p>
+                                                    <div class="fnotes_det mt_1">
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 pr_2 grey_color_one">pradeep.singh</span>
+                                                        <span
+                                                            class="text_10 grey_color_one m_0 grey_color_one">03/15/2021
+                                                            ● 17:45 PM</span>
+                                                    </div>
+                                                </div>
+                                                <div class="fnotes_action">
+                                                    <span><img src="./images/icons/ic-remove-copy-11.svg"
+                                                            alt="ic-remove-copy-11" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- main wrapper -->
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+<script src="./js/script.js"></script>
+<script>
+    // slider
+    $(document).ready(function () {
+        $(".arrow_left").on("click", function () {
+            $(this).parent().parent().toggleClass("active");
+        })
+    });
+</script>
+
+</html>

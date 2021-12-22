@@ -1604,6 +1604,102 @@ a.accordion-toggle .doc_arrow.color_black svg *{
   left: -9px;
 }
 
+/* esign dashboard */
+.esign_reject{
+  background-color: #ffdce1 !important;
+}
+.esign_reject .rejected_info{
+  position: relative !important;
+  right: 0;
+  top: 0;
+}
+.esign_reject .action_popup{
+  width: 350px;
+  right: 65%;
+}
+.esign_reject .action_popup::before{
+  right: 10%;
+}
+.em_detail .table_wrap .custom_tr:nth-child(odd){
+  background-color: #f2f9ff;
+}
+.status_overview .status_header{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.status_overview .rcs_search{
+  position: relative;
+  margin: 0 auto;
+}
+.status_overview .advance_search_wrap{
+  position: absolute;
+  left: 0;
+  z-index: 9;
+  width: 120%;
+  border-radius: 4px;
+  box-shadow: 0 2px 14px 0 rgb(0 0 0 / 50%);
+  background-color: #fff;
+  left: -10%;
+  top: 110%;
+  display: none;
+}
+.status_overview .as_head{
+  border-bottom: 1px solid #e7e7e7;
+}
+.status_chart{
+  border-radius: 4px;
+  border: solid 1px #e7e7e7;
+  background-color: #fff;
+}
+.status_chart_head{
+  border-bottom: 1px solid #e7e7e7;
+}
+.status_chart_body img{
+  width: 100%;
+}
+.status_chart_body:hover .chart_pop{
+  display: block;
+}
+.advance_search_wrap.active{
+  display: block;
+}
+.chart_pop{
+  border-radius: 4px;
+  box-shadow: 0 2px 16px 8px rgba(0, 0, 0, 0.23);
+  background-color: #fff;
+  position: absolute;
+  z-index: 9;
+  left: 80%;
+  width: 350px;
+  top: 5%;
+  display: none;
+}
+.chart_pop h6{
+  padding: 1rem;
+  border-bottom: 1px solid #e7e7e7;
+}
+.chart_pop img{
+  max-width: 100%;
+  padding: 1rem;
+}
+.chart_pop::before{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid #fff;
+  clear: both;
+  top: 45%;
+  transform: rotate(
+270deg);
+  left: -10px;
+}
+.em_detail.reactive_po_ .slider_left ul li:first-child{
+  left: -14px;
+}
 @media(min-width:1600px){
   .main_wrapper{
     margin: 130px auto 50px !important;

@@ -79,6 +79,12 @@ $(document).ready(function(){
   $(".side_menu").click(function() {
     $(".leftSideBar").toggleClass("active");
   })
+  $(".advance_search").click(function(){
+    $(".advance_search_wrap").toggleClass("active");
+  })
+  $(".advance_search_close").click(function(){
+    $(".advance_search_wrap").removeClass("active");
+  })
 })
 $(function() {
   $('.box').matchHeight();
