@@ -124,7 +124,7 @@
                     <div class="gp_project_wrap mt_2 mb_2">
                         <h5 class="text_12 font_500 mt_0 mb_1">Project ID </h5>
                         <p class="text_12 font_500 mt_0 mb_0">T000001346</p>
-                        
+
                     </div>
                     <div class="gp_project_wrap mt_2 mb_2">
                         <h5 class="text_12 font_500 mt_0 mb_1">Start Date </h5>
@@ -238,7 +238,7 @@
                                 <div class="custom_th w_custom_4 d-flex align-items-center">
                                 </div>
                                 <div class="custom_th w_custom_14">
-                                        Coll ID
+                                    Coll ID
                                     <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
                                 </div>
                                 <div class="custom_th w_custom_14">
@@ -459,7 +459,200 @@
     </div>
 
     <!-- modal -->
-    <div class="custom_modal notes_modal" id="reject_notes_modal">
+    <div class="custom_modal pc_modal active" id="project_consultation_modal">
+        <div class="custom_modal_wrap">
+            <div class="custom_modal_header">
+                <h5 class="modal-title">Project and Consultant Extension</h5>
+                <button class="close">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14"
+                            height="14" viewBox="0 0 14 14">
+                            <defs>
+                                <path id="x997k9vwqa"
+                                    d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7z">
+                                </path>
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <g
+                                                transform="translate(-1146 -528) translate(496 505) translate(1 17) translate(649 6)">
+                                                <use fill="#4A4A4A" xlink:href="#x997k9vwqa"></use>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="custom_modal_body">
+                <div class="pc_top_det p_4">
+                    <div class="pc_det">
+                        <h4 class="text_12 font_500 color_grey">Project Name</h4>
+                        <p class="text_14 font_500">IBM - Design System - 24th Feb-31st Dec 2020</p>
+                    </div>
+                    <div class="pc_det">
+                        <h4 class="text_12 font_500 color_grey">Project ID</h4>
+                        <p class="text_14 font_500">COLL-0134-02242020</p>
+                    </div>
+                    <div class="pc_det">
+                        <h4 class="text_12 font_500 color_grey">Start Date</h4>
+                        <p class="text_14 font_500">24th Feb 2020</p>
+                    </div>
+                    <div class="pc_det">
+                        <h4 class="text_12 font_500 color_grey">End Date</h4>
+                        <p class="text_14 font_500">31st Dec 2020</p>
+                    </div>
+                    <div class="pc_det">
+                        <h4 class="text_12 font_500 color_grey">Client Name</h4>
+                        <p class="text_14 font_500">IBM, NJ</p>
+                    </div>
+                    <div class="pc_det">
+                        <h4 class="text_12 font_500 color_grey">Billing Company</h4>
+                        <p class="text_14 font_500">CTPL</p>
+                    </div>
+                    <div class="pc_det">
+                        <h4 class="text_12 font_500 color_grey">Paying Company</h4>
+                        <p class="text_14 font_500">CSPL</p>
+                    </div>
+                </div>
+                <div class="pc_switch d-flex align-items-center p_4">
+                    <p class="text_14 font_500 m_0">Do you want to change the Consultant End Date same as NEW Project
+                        End Date?</p>
+                    <div class="switch-field ml_4">
+                        <input type="radio" id="no_3" name="switch-three" value="no" checked="">
+                        <label for="no_3" class="font_400 text_10">No</label>
+                        <input type="radio" id="yes_4" name="switch-three" value="yes">
+                        <label for="yes_4" class="font_400 text_10">Yes</label>
+                    </div>
+                </div>
+
+                <div class="rcs_body p_4">
+                    <div class="rcs_search ml_auto mr_auto mb_4">
+                        <input type="search" placeholder="Search by Collabera ID/Candidate Name/PO Number"
+                            class="text_14 font_400">
+                        <span><img src="./images/icons/ic-search.svg" alt="ic-search"></span>
+                    </div>
+                    <div class="table_wrap accordion" id="accordion1">
+                        <div class="custom_tr accordion-group">
+                            <div class="custom_th w_custom_5 d-flex align-items-center">
+                                <input type="checkbox" checked="" class="ml_1">
+                            </div>
+                            <div class="custom_th w_custom_14">
+                                    Coll. ID
+                                <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+                            </div>
+                            <div class="custom_th w_custom_14">
+                                Candidate Name
+                                <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+                            </div>
+                            <div class="custom_th w_custom_10">
+                                DOJ
+                                <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+                            </div>
+                            <div class="custom_th w_custom_10">LWD
+                                <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+                            </div>
+                            <div class="custom_th w_custom_8">
+                                PO No.
+                                <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+                            </div>
+                            <div class="custom_th w_custom_10">
+                                Start Date
+                                <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+                            </div>
+                            <div class="custom_th w_custom_10">
+                                End Date
+                                <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+                            </div>
+                            <div class="custom_th w_custom_12">
+                                Region
+                                <span><img src="./images/icons/ic-filter.svg" alt="ic-filter"></span>
+                            </div>
+                            <div class="custom_th w_custom_5">
+
+                            </div>
+                        </div>
+                        <div class="custom_tr row bg_red">
+                            <div class="custom_td w_custom_5"><input type="checkbox"></div>
+                            <div class="custom_td w_custom_14">123456</div>
+                            <div class="custom_td w_custom_15">Carmelita Marsham</div>
+                            <div class="custom_td w_custom_10">01/07/2021</div>
+                            <div class="custom_td w_custom_10">06/30/2021</div>
+                            <div class="custom_td w_custom_8">2232</div>
+                            <div class="custom_td w_custom_10">05/01/2021</div>
+                            <div class="custom_td w_custom_10">06/30/2021</div>
+                            <div class="custom_td w_custom_12">Los Angels, CA</div>
+                            
+                        </div>
+                        <div class="custom_tr row">
+                            <div class="custom_td w_custom_5"><input type="checkbox" checked="checked"></div>
+                            <div class="custom_td w_custom_14">123456</div>
+                            <div class="custom_td w_custom_15">Carmelita Marsham</div>
+                            <div class="custom_td w_custom_10">01/07/2021</div>
+                            <div class="custom_td w_custom_10">06/30/2021</div>
+                            <div class="custom_td w_custom_8">2232</div>
+                            <div class="custom_td w_custom_10">05/01/2021</div>
+                            <div class="custom_td w_custom_10">06/30/2021</div>
+                            <div class="custom_td w_custom_12">Los Angels, CA</div>
+                            
+                        </div>
+                        <div class="custom_tr row">
+                            <div class="custom_td w_custom_5"><input type="checkbox"></div>
+                            <div class="custom_td w_custom_14">123456</div>
+                            <div class="custom_td w_custom_15">Carmelita Marsham</div>
+                            <div class="custom_td w_custom_10">01/07/2021</div>
+                            <div class="custom_td w_custom_10">06/30/2021</div>
+                            <div class="custom_td w_custom_8">2232</div>
+                            <div class="custom_td w_custom_10">05/01/2021</div>
+                            <div class="custom_td w_custom_10">06/30/2021</div>
+                            <div class="custom_td w_custom_12">Los Angels, CA</div>
+                            
+                        </div>
+                        <div class="custom_tr row">
+                            <div class="custom_td w_custom_5"><input type="checkbox"></div>
+                            <div class="custom_td w_custom_14">123456</div>
+                            <div class="custom_td w_custom_15">Carmelita Marsham</div>
+                            <div class="custom_td w_custom_10">01/07/2021</div>
+                            <div class="custom_td w_custom_10">06/30/2021</div>
+                            <div class="custom_td w_custom_8">2232</div>
+                            <div class="custom_td w_custom_10">05/01/2021</div>
+                            <div class="custom_td w_custom_10">06/30/2021</div>
+                            <div class="custom_td w_custom_12">Los Angels, CA</div>
+                            
+                        </div>
+                        <div class="custom_tr row">
+                            <div class="custom_td w_custom_5"><input type="checkbox"></div>
+                            <div class="custom_td w_custom_14">123456</div>
+                            <div class="custom_td w_custom_15">Carmelita Marsham</div>
+                            <div class="custom_td w_custom_10">01/07/2021</div>
+                            <div class="custom_td w_custom_10">06/30/2021</div>
+                            <div class="custom_td w_custom_8">2232</div>
+                            <div class="custom_td w_custom_10">05/01/2021</div>
+                            <div class="custom_td w_custom_10">06/30/2021</div>
+                            <div class="custom_td w_custom_12">Los Angels, CA</div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center p_4 custom_modal_footer">
+                    <p class="text_14 font_500 color_danger"><span class="pr_2"><img src="./images/icons/ic-alert.svg" alt="alert" /></span> You have selected 40 resources out of 54 resources. </p>
+                    <div class="ml_auto">
+                        <button class="secondary_btn">Save As Draft</button>
+                        <button class="primary_btn ml_2">Update</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+
+    <!-- modal -->
+    <div class="custom_modal notes_modal " id="reject_notes_modal">
         <div class="custom_modal_wrap">
             <div class="custom_modal_header">
                 <h5 class="modal-title">Rejection Notes</h5>

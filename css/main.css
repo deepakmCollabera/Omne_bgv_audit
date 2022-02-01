@@ -1774,6 +1774,49 @@ a.accordion-toggle .doc_arrow.color_black svg * {
 .group_po_wrap .table_wrap > .custom_tr:nth-child(odd){
   background-color: #f2f9ff !important;
 }
+
+/* pc_modal */
+.pc_modal .custom_modal_wrap{
+  width: 75%;
+}
+.pc_top_det{
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+  border-bottom: 1px solid #e7e7e7;
+}
+.pc_det{
+  padding: 0 .5rem;
+  border-right: 1px solid #e7e7e7;
+  min-width: 13%;
+  height: 80px;
+}
+.pc_det:last-child{
+  border: none;
+}
+.pc_det p{
+  color: #9b9b9b;
+  margin: 0
+}
+.pc_switch{
+  border-bottom: 1px solid #e7e7e7;
+}
+.custom_modal_footer{
+  border-top: 1px solid #e7e7e7;
+}
+.pc_modal .table_wrap > .custom_tr:nth-child(2){
+  background-color: #fff
+}
+.pc_modal .table_wrap > .custom_tr:nth-child(odd){
+  background-color: #f2f9ff
+}
+.pc_modal .table_wrap > .custom_tr.bg_red{
+  background-color: #ffdce1;
+}
+.pc_modal .table_wrap {
+  max-height: 160px;
+  overflow-y: auto;
+}
 @media (min-width: 1600px) {
   .main_wrapper {
     margin: 130px auto 50px !important;

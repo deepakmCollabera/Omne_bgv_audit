@@ -377,6 +377,9 @@ body {
 .success_color {
   color: var(--success-bg) !important;
 }
+.color_danger{
+  color: var(--red-eror) !important;
+}
 
 /* bg colors */
 .no_bg {
