@@ -456,6 +456,9 @@ a.accordion-toggle .doc_arrow {
 .w_custom_6 {
   width: 6% !important;
 }
+.w_custom_7 {
+  width: 7% !important;
+}
 .w_custom_5 {
   width: 5% !important;
 }
@@ -1810,12 +1813,20 @@ a.accordion-toggle .doc_arrow.color_black svg * {
 .pc_modal .table_wrap > .custom_tr:nth-child(odd){
   background-color: #f2f9ff
 }
-.pc_modal .table_wrap > .custom_tr.bg_red{
-  background-color: #ffdce1;
+.rcs_body .table_wrap > .custom_tr.bg_red{
+  background-color: #ffdce1 !important;
 }
 .pc_modal .table_wrap {
   max-height: 160px;
   overflow-y: auto;
+}
+.group_po_wrap .grey_btn{
+  background-color: #b7b7b7;
+  border: none;
+  color: #fff;
+}
+#auditRejection .custom_modal_wrap{
+  width: 35% !important;
 }
 @media (min-width: 1600px) {
   .main_wrapper {

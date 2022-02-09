@@ -1,0 +1,490 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group PO</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="./css/styleGuideOmne.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <!-- top omne bar -->
+    <div class="omne_bar">
+        <div class="custom_container">
+            <img src="./images/omne_with_tagline_rgb.png" title="omne_with_tagline_rgb" />
+        </div>
+    </div>
+    <!-- top omne bar -->
+
+    <!-- main nav bar -->
+    <div class="nav_menu">
+        <div class="custom_container">
+            <div class="row">
+                <div class="side_menu">
+                    <img src="./images/icons/ic-menu.svg" alt="ic-menu" />
+                </div>
+                <div class="tab_title text_18 font_600 p_3 ml_4 h_100">
+                    PO Extension
+                </div>
+                <div class="page_title text_16 font_500 p_3">
+                    Group PO
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-tools.svg" alt="ic-tools" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-notification.svg" alt="ic-notification" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-login-profile-image.png" alt="ic-login-profile-image" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main nav bar -->
+
+    <!-- sidebar_left -->
+    <div class="leftSideBar pt_4 pb_4 pl_2 pr_2">
+        <div class="sideNavItems">
+            <ul>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14"><span class="pr_4"><img
+                                src="./images/icons/ic-dashboard.svg" alt="ic-dashboard" /></span>
+                        <span class="text_hid">Dashnboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14 active"><span class="pr_4"><img
+                                src="./images/icons/ic-po-extension-white.svg" alt="ic-po-extension-white" /></span>
+                        <span class="text_hid">Green Signal</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14"><span class="pr_4"><img
+                                src="./images/icons/ic-hire-wf.svg" alt="ic-hire-wf" /></span>
+                        <span class="text_hid"> Hire WF</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- sidebar_left -->
+
+    <!-- main wrapper -->
+    <div class="main_wrapper">
+        <div class="group_po_wrap row">
+            <div class="col-md-12">
+
+                <div class="gp_project_table redo_check_status po_candidate p_3 ">
+                    <div class="rcs_head d-flex align-items-center">
+                        <h4 class="text_16 font_600 mt_0 mb_0 primary_text_color">
+                            Project Details
+                        </h4>
+                        <p class="mb_0 ml_2 text_14">(20 Records Found)</p>
+                        <button class="ml_auto secondary_btn grey_btn">Reject</button>
+                        <button class="ml_4 primary_btn">Approve</button>
+                        <div class="xl_icon ml_4 pos-relative">
+                            <span class="ml_2 open_filter cursor_pointer"><img src="./images/icons/ic-solid-table.svg"
+                                    alt="ic-solid-table"></span>
+                            <div class="filter_wrap table_columns">
+                                <div class="filter_head">
+                                    <h6 class="text_14 font_500 primary_text_color my_0">
+                                        Table columns
+                                    </h6>
+                                    <span class="close_popup cursor_pointer"><img
+                                            src="./images/icons/ic-popup-close.svg" alt="ic-popup-close" /></span>
+                                </div>
+                                <div class="filter_body py_2">
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="candidateName" />
+                                        <label for="candidateName" class="text_12 font_500 mb_0">Candidate Name</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="client" />
+                                        <label for="client" class="text_12 font_500 mb_0">Client</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="doj" />
+                                        <label for="doj" class="text_12 font_500 mb_0">DOJ</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="lwd" />
+                                        <label for="lwd" class="text_12 font_500 mb_0">LWD</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="poNo" />
+                                        <label for="poNo" class="text_12 font_500 mb_0">PO. NO.</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="poType" />
+                                        <label for="poType" class="text_12 font_500 mb_0">PO Type</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="poStart" />
+                                        <label for="poStart" class="text_12 font_500 mb_0">PO Start Date</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="poEnd" />
+                                        <label for="poEnd" class="text_12 font_500 mb_0">PO End Date</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="status" />
+                                        <label for="status" class="text_12 font_500 mb_0">Status</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="poMoveBill" />
+                                        <label for="poMoveBill" class="text_12 font_500 mb_0">PO Moved to
+                                            Billing</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="priority" />
+                                        <label for="priority" class="text_12 font_500 mb_0">Priority</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="playingCompany" />
+                                        <label for="playingCompany" class="text_12 font_500 mb_0">Paying Company</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="billingCompany" />
+                                        <label for="billingCompany" class="text_12 font_500 mb_0">Billing
+                                            Company</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="projectName" />
+                                        <label for="projectName" class="text_12 font_500 mb_0">Project Name</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rcs_body pt_4">
+                        <div class="table_wrap accordion" id="accordion1">
+                            <div class="custom_tr accordion-group">
+                                <div class="custom_th w_custom_5 d-flex align-items-center">
+                                    <input type="checkbox" checked="" class="ml_1">
+                                </div>
+                                <div class="custom_th w_custom_12">
+                                    Project Name
+                                </div>
+                                <div class="custom_th w_custom_10">
+                                    Project ID
+                                </div>
+                                <div class="custom_th w_custom_8">
+                                    Start Date
+                                </div>
+                                <div class="custom_th w_custom_8">End Date
+                                </div>
+                                <div class="custom_th w_custom_8">
+                                    Client Name
+                                </div>
+                                <div class="custom_th w_custom_10">
+                                    Coll/Solomon ID
+                                </div>
+                                <div class="custom_th w_custom_12">
+                                    Candidate Name
+                                </div>
+                                <div class="custom_th w_custom_10">
+                                    Billing Company
+                                </div>
+                                <div class="custom_th w_custom_10">
+                                    Paying Company
+                                </div>
+                                <div class="custom_th w_custom_7">
+
+                                </div>
+                            </div>
+                            <div class="custom_tr row bg_red">
+                                <div class="custom_td w_custom_5 "><input type="checkbox"></div>
+                                <div class="custom_td w_custom_12 pl_0">IBM Design System - 24th Feb-31st Dec 2020</div>
+                                <div class="custom_td w_custom_10 pl_0">COLL-0134-02242020</div>
+                                <div class="custom_td w_custom_8 pl_0">02/04/2020</div>
+                                <div class="custom_td w_custom_8 pl_0">12/31/2020</div>
+                                <div class="custom_td w_custom_8 pl_0 text-center">IBM</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">123456/G22121</div>
+                                <div class="custom_td w_custom_12 pl_0 text-center">Carmelita Marsham</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CTPL</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CSPL</div>
+                                <div class="custom_th w_custom_7 pl_0 text-center">
+                                    <span><img src="./images/icons/ic-approved-copy-3.svg" alt="approved" /></span>
+                                    <span class="ml_3"><img src="./images/icons/ic-reject-2-copy-3.svg"
+                                            alt="reject" /></span>
+                                </div>
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="custom_td w_custom_5"><input type="checkbox"></div>
+                                <div class="custom_td w_custom_12 pl_0">IBM Design System - 24th Feb-31st Dec 2020</div>
+                                <div class="custom_td w_custom_10 pl_0">COLL-0134-02242020</div>
+                                <div class="custom_td w_custom_8 pl_0">02/04/2020</div>
+                                <div class="custom_td w_custom_8 pl_0">12/31/2020</div>
+                                <div class="custom_td w_custom_8 pl_0 text-center">IBM</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">123456/G22121</div>
+                                <div class="custom_td w_custom_12 pl_0 text-center">Carmelita Marsham</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CTPL</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CSPL</div>
+                                <div class="custom_th w_custom_7 pl_0 text-center">
+
+                                </div>
+                            </div>
+                            <div class="custom_tr row bg_red">
+                                <div class="custom_td w_custom_5 "><input type="checkbox"></div>
+                                <div class="custom_td w_custom_12 pl_0">IBM Design System - 24th Feb-31st Dec 2020</div>
+                                <div class="custom_td w_custom_10 pl_0">COLL-0134-02242020</div>
+                                <div class="custom_td w_custom_8 pl_0">02/04/2020</div>
+                                <div class="custom_td w_custom_8 pl_0">12/31/2020</div>
+                                <div class="custom_td w_custom_8 pl_0 text-center">IBM</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">123456/G22121</div>
+                                <div class="custom_td w_custom_12 pl_0 text-center">Carmelita Marsham</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CTPL</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CSPL</div>
+                                <div class="custom_th w_custom_7 pl_0 text-center">
+
+                                </div>
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="custom_td w_custom_5 "><input type="checkbox"></div>
+                                <div class="custom_td w_custom_12 pl_0">IBM Design System - 24th Feb-31st Dec 2020</div>
+                                <div class="custom_td w_custom_10 pl_0">COLL-0134-02242020</div>
+                                <div class="custom_td w_custom_8 pl_0">02/04/2020</div>
+                                <div class="custom_td w_custom_8 pl_0">12/31/2020</div>
+                                <div class="custom_td w_custom_8 pl_0 text-center">IBM</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">123456/G22121</div>
+                                <div class="custom_td w_custom_12 pl_0 text-center">Carmelita Marsham</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CTPL</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CSPL</div>
+                                <div class="custom_th w_custom_7 pl_0 text-center">
+
+                                </div>
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="custom_td w_custom_5 "><input type="checkbox"></div>
+                                <div class="custom_td w_custom_12 pl_0">IBM Design System - 24th Feb-31st Dec 2020</div>
+                                <div class="custom_td w_custom_10 pl_0">COLL-0134-02242020</div>
+                                <div class="custom_td w_custom_8 pl_0">02/04/2020</div>
+                                <div class="custom_td w_custom_8 pl_0">12/31/2020</div>
+                                <div class="custom_td w_custom_8 pl_0 text-center">IBM</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">123456/G22121</div>
+                                <div class="custom_td w_custom_12 pl_0 text-center">Carmelita Marsham</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CTPL</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CSPL</div>
+                                <div class="custom_th w_custom_7 pl_0 text-center">
+
+                                </div>
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="custom_td w_custom_5 "><input type="checkbox"></div>
+                                <div class="custom_td w_custom_12 pl_0">IBM Design System - 24th Feb-31st Dec 2020</div>
+                                <div class="custom_td w_custom_10 pl_0">COLL-0134-02242020</div>
+                                <div class="custom_td w_custom_8 pl_0">02/04/2020</div>
+                                <div class="custom_td w_custom_8 pl_0">12/31/2020</div>
+                                <div class="custom_td w_custom_8 pl_0 text-center">IBM</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">123456/G22121</div>
+                                <div class="custom_td w_custom_12 pl_0 text-center">Carmelita Marsham</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CTPL</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CSPL</div>
+                                <div class="custom_th w_custom_7 pl_0 text-center">
+
+                                </div>
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="custom_td w_custom_5 "><input type="checkbox"></div>
+                                <div class="custom_td w_custom_12 pl_0">IBM Design System - 24th Feb-31st Dec 2020</div>
+                                <div class="custom_td w_custom_10 pl_0">COLL-0134-02242020</div>
+                                <div class="custom_td w_custom_8 pl_0">02/04/2020</div>
+                                <div class="custom_td w_custom_8 pl_0">12/31/2020</div>
+                                <div class="custom_td w_custom_8 pl_0 text-center">IBM</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">123456/G22121</div>
+                                <div class="custom_td w_custom_12 pl_0 text-center">Carmelita Marsham</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CTPL</div>
+                                <div class="custom_td w_custom_10 pl_0 text-center">CSPL</div>
+                                <div class="custom_th w_custom_7 pl_0 text-center">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- modal -->
+    <div class="custom_modal notes_modal " id="reject_notes_modal">
+        <div class="custom_modal_wrap">
+            <div class="custom_modal_header">
+                <h5 class="modal-title">Rejection Notes</h5>
+                <button class="close">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14"
+                            height="14" viewBox="0 0 14 14">
+                            <defs>
+                                <path id="x997k9vwqa"
+                                    d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7z">
+                                </path>
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <g
+                                                transform="translate(-1146 -528) translate(496 505) translate(1 17) translate(649 6)">
+                                                <use fill="#4A4A4A" xlink:href="#x997k9vwqa"></use>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="custom_modal_body">
+                <div class="form_control required mb-3 dropdown">
+                    <label for="">Reason <span>*</span></label>
+                    <select name="" id="">
+                        <option value="">Reason</option>
+                        <option value="">Reason 1</option>
+                    </select>
+                </div>
+                <div class="form_control required mb-3">
+                    <label for="">Notes <span>*</span></label>
+                    <textarea rows="4" placeholder="Notes"></textarea>
+                </div>
+                <div class="confirmation_btn">
+                    <button class="close">Cancel</button>
+                    <button class="confirm_btn">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+
+    <!-- modal -->
+    <div class="custom_modal notes_modal small_modal" id="asign_auditor">
+        <div class="custom_modal_wrap">
+            <div class="custom_modal_header">
+                <h5 class="modal-title">Assign to Auditor 2</h5>
+                <button class="close">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14"
+                            height="14" viewBox="0 0 14 14">
+                            <defs>
+                                <path id="x997k9vwqa"
+                                    d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7z">
+                                </path>
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <g
+                                                transform="translate(-1146 -528) translate(496 505) translate(1 17) translate(649 6)">
+                                                <use fill="#4A4A4A" xlink:href="#x997k9vwqa"></use>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="custom_modal_body">
+                <div class="form_control icon">
+                    <label for="date" class="text_10">Email ID</label>
+                    <input type="text" id="name" class="text_12">
+                    <span class="icon_img"><img src="./images/icons/ic-search.svg" alt="search"></span>
+                </div>
+                <div class="form_control icon">
+                    <label for="date" class="text_10">Auditor Name</label>
+                    <input type="text" id="name" class="text_12">
+                    <span class="icon_img"><img src="./images/icons/ic-search.svg" alt="search"></span>
+                </div>
+                <div class="text_right mt_4">
+                    <button class="secondary_btn grey_btn">Cancel</button>
+                    <button class="primary_btn ml_2">Assign</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+
+    <!-- modal -->
+    <div class="custom_modal notes_modal small_modal" id="auditRejection">
+        <div class="custom_modal_wrap">
+            <div class="custom_modal_header">
+                <h5 class="modal-title">Audit Rejection Area</h5>
+                <button class="close">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14"
+                            height="14" viewBox="0 0 14 14">
+                            <defs>
+                                <path id="x997k9vwqa"
+                                    d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7z">
+                                </path>
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <g
+                                                transform="translate(-1146 -528) translate(496 505) translate(1 17) translate(649 6)">
+                                                <use fill="#4A4A4A" xlink:href="#x997k9vwqa"></use>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="custom_modal_body">
+                <div class="form_control d-flex align-items-center pt_0 pb_1">
+                    <input id="data_rect" type="checkbox" class="mr_2 w_fit_content text_14">
+                    <label for="data_rect" class="text_12 font_500 "> Data Rectification</label>
+                </div>
+                <div class="form_control d-flex align-items-center pt_0 pb_1">
+                    <input id="miss_doc" type="checkbox" class="mr_2 w_fit_content text_14">
+                    <label for="miss_doc" class="text_12 font_500 "> Missing Documents </label>
+                </div>
+                <div class="form_control d-flex align-items-center pt_0 pb_1">
+                    <input id="in_doc" type="checkbox" class="mr_2 w_fit_content text_14">
+                    <label for="in_doc" class="text_12 font_500 "> Incorrect Document Uploaded </label>
+                </div>
+                <div class="form_control icon required">
+                    <label for="date" class="text_12">Comments <span>*</span></label>
+                    <textarea class="text_12 w_100" rows="3">Audit Comments</textarea>
+                </div>
+                <div class="text_right mt_4">
+                    <button class="secondary_btn grey_btn">Cancel</button>
+                    <button class="primary_btn ml_2">Assign</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+    <!-- main wrapper -->
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+<script src="./js/script.js"></script>
+
+</html>
