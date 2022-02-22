@@ -1,0 +1,748 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group PO</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="./css/styleGuideOmne.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <!-- top omne bar -->
+    <div class="omne_bar">
+        <div class="custom_container">
+            <img src="./images/omne_with_tagline_rgb.png" title="omne_with_tagline_rgb" />
+        </div>
+    </div>
+    <!-- top omne bar -->
+
+    <!-- main nav bar -->
+    <div class="nav_menu">
+        <div class="custom_container">
+            <div class="row">
+                <div class="side_menu">
+                    <img src="./images/icons/ic-menu.svg" alt="ic-menu" />
+                </div>
+                <div class="tab_title text_18 font_600 p_3 ml_4 h_100">
+                    PO Extension
+                </div>
+                <div class="page_title text_16 font_500 p_3">
+                    Group PO
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-tools.svg" alt="ic-tools" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-notification.svg" alt="ic-notification" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-login-profile-image.png" alt="ic-login-profile-image" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main nav bar -->
+
+    <!-- sidebar_left -->
+    <div class="leftSideBar pt_4 pb_4 pl_2 pr_2">
+        <div class="sideNavItems">
+            <ul>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14"><span class="pr_4"><img
+                                src="./images/icons/ic-dashboard.svg" alt="ic-dashboard" /></span>
+                        <span class="text_hid">Dashnboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14 active"><span class="pr_4"><img
+                                src="./images/icons/ic-po-extension-white.svg" alt="ic-po-extension-white" /></span>
+                        <span class="text_hid">Green Signal</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14"><span class="pr_4"><img
+                                src="./images/icons/ic-hire-wf.svg" alt="ic-hire-wf" /></span>
+                        <span class="text_hid"> Hire WF</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- sidebar_left -->
+
+    <!-- main wrapper -->
+    <div class="main_wrapper">
+        <div class="group_po_wrap row">
+            <div class="col-md-12">
+                <div class="pc_top_det_bar gp_project_table mb_4">
+                    <div class="py_2 px_4 border_bottom">
+                        <h4 class="text_16 font_600 mt_0 mb_0 primary_text_color py_2">
+                            Resource Details
+                        </h4>
+                    </div>
+                    <div class="pc_top_det p_4">
+                        <div class="pc_det">
+                            <h4 class="text_12 font_500 color_grey">Project Name</h4>
+                            <p class="text_14 font_500">IBM - Design System - 24th Feb-31st Dec 2020</p>
+                        </div>
+                        <div class="pc_det">
+                            <h4 class="text_12 font_500 color_grey">Project ID</h4>
+                            <p class="text_14 font_500">COLL-0134-02242020</p>
+                        </div>
+                        <div class="pc_det">
+                            <h4 class="text_12 font_500 color_grey">Start Date</h4>
+                            <p class="text_14 font_500">24th Feb 2020</p>
+                        </div>
+                        <div class="pc_det">
+                            <h4 class="text_12 font_500 color_grey">End Date</h4>
+                            <div class="form_control required icon px_2">
+                                <input type="text" placeholder="From Date" value="12/31/ 2020" />
+                                <span class="icon_img"><img src="./images/icons/ic-calendar.svg" alt="calendar"></span>
+                            </div>
+                        </div>
+                        <div class="pc_det">
+                            <h4 class="text_12 font_500 color_grey">Client Name</h4>
+                            <p class="text_14 font_500">IBM, NJ</p>
+                        </div>
+                        <div class="pc_det">
+                            <h4 class="text_12 font_500 color_grey">Billing Company</h4>
+                            <p class="text_14 font_500">CTPL</p>
+                        </div>
+                        <div class="pc_det">
+                            <h4 class="text_12 font_500 color_grey">Paying Company</h4>
+                            <p class="text_14 font_500">CSPL</p>
+                        </div>
+                    </div>
+                    <div class="pc_switch d-flex align-items-center p_4">
+                        <p class="text_14 font_500 m_0">Do you want to change the Consultant End Date same as NEW
+                            Project
+                            End Date?</p>
+                        <div class="switch-field ml_4">
+                            <input type="radio" id="no_3" name="switch-three" value="no" checked="">
+                            <label for="no_3" class="font_400 text_10">No</label>
+                            <input type="radio" id="yes_4" name="switch-three" value="yes">
+                            <label for="yes_4" class="font_400 text_10">Yes</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="gp_project_table redo_check_status po_candidate p_3 ">
+                    <div class="rcs_head d-flex align-items-center">
+                        <h4 class="text_16 font_600 mt_0 mb_0 primary_text_color">
+                            Resource Details
+                        </h4>
+                        <p class="mb_0 ml_auto color_danger text_14"><span><img src="./images/icons/ic-alert.svg"
+                                    alt="ic-alert"></span> You have selected 40 resources out of 54 resources. </p>
+                        <div class="xl_icon ml_4 pos-relative">
+                            <span class="ml_2 open_filter cursor_pointer"><img src="./images/icons/ic-solid-table.svg"
+                                    alt="ic-solid-table"></span>
+                            <div class="filter_wrap table_columns">
+                                <div class="filter_head">
+                                    <h6 class="text_14 font_500 primary_text_color my_0">
+                                        Table columns
+                                    </h6>
+                                    <span class="close_popup cursor_pointer"><img
+                                            src="./images/icons/ic-popup-close.svg" alt="ic-popup-close" /></span>
+                                </div>
+                                <div class="filter_body py_2">
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="candidateName" />
+                                        <label for="candidateName" class="text_12 font_500 mb_0">Candidate Name</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="client" />
+                                        <label for="client" class="text_12 font_500 mb_0">Client</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="doj" />
+                                        <label for="doj" class="text_12 font_500 mb_0">DOJ</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="lwd" />
+                                        <label for="lwd" class="text_12 font_500 mb_0">LWD</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="poNo" />
+                                        <label for="poNo" class="text_12 font_500 mb_0">PO. NO.</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="poType" />
+                                        <label for="poType" class="text_12 font_500 mb_0">PO Type</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="poStart" />
+                                        <label for="poStart" class="text_12 font_500 mb_0">PO Start Date</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="poEnd" />
+                                        <label for="poEnd" class="text_12 font_500 mb_0">PO End Date</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="status" />
+                                        <label for="status" class="text_12 font_500 mb_0">Status</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="poMoveBill" />
+                                        <label for="poMoveBill" class="text_12 font_500 mb_0">PO Moved to
+                                            Billing</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="priority" />
+                                        <label for="priority" class="text_12 font_500 mb_0">Priority</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="playingCompany" />
+                                        <label for="playingCompany" class="text_12 font_500 mb_0">Paying Company</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="billingCompany" />
+                                        <label for="billingCompany" class="text_12 font_500 mb_0">Billing
+                                            Company</label>
+                                    </div>
+                                    <div class="form_control py_1 d-flex align-items-center">
+                                        <input type="checkbox" class="w_custom_20" id="projectName" />
+                                        <label for="projectName" class="text_12 font_500 mb_0">Project Name</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rcs_body pt_4">
+                        <div class="table_wrap accordion" id="accordion1">
+                            <div class="custom_tr accordion-group spl_table_wrap">
+                                <div class="custom_th w_25">
+                                    <div class="custom_th_spl_header">
+                                        Fixprice Employee info
+                                    </div>
+                                    <div class="row_th">
+                                        <div class="custom_th d-flex align-items-center">
+                                            <input type="checkbox" checked="" class="ml_1">
+                                        </div>
+                                        <div class="custom_th">
+                                            Candidate Name
+                                        </div>
+                                        <div class="custom_th">
+                                            Start Date
+                                        </div>
+                                        <div class="custom_th">
+                                            End Date
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="custom_th w_20">
+                                    <div class="custom_th_spl_header">
+                                        Subcontract Info
+                                    </div>
+                                    <div class="row_th">
+                                        <div class="custom_th">Subcontract
+                                        </div>
+                                        <div class="custom_th">
+                                            Start Date
+                                        </div>
+                                        <div class="custom_th">
+                                            End Date
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="custom_th w_20">
+                                    <div class="custom_th_spl_header">
+                                        Pay Rate
+                                    </div>
+                                    <div class="row_th">
+                                        <div class="custom_th">
+                                            Eff. Date
+                                        </div>
+                                        <div class="custom_th">
+                                            ST
+                                        </div>
+                                        <div class="custom_th">
+                                            OT
+                                        </div>
+                                        <div class="custom_th">
+                                            Emp. End Date
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="custom_th w_20">
+                                    <div class="custom_th_spl_header">
+                                        Extension
+                                    </div>
+                                    <div class="row_th">
+                                        <div class="custom_th">
+                                            Pay Eff. Date
+                                        </div>
+                                        <div class="custom_th">
+                                            Pay ST
+                                        </div>
+                                        <div class="custom_th">
+                                            Pay OT
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="custom_th w_15">
+                                    <div class="custom_th_spl_header">
+                                        Internal Bill Rate
+                                    </div>
+                                    <div class="row_th">
+                                        <div class="custom_th">
+                                            ST
+                                        </div>
+                                        <div class="custom_th">
+                                            OT
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="custom_tr row bg_red checked_bg">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td"><input type="checkbox" checked></div>
+                                    <div class="custom_td pl_0">Carmelita Marsham <br> 123456/G037577</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center w_20">20</div>
+                                    <div class="custom_td pl_0 text-center w_20">30</div>
+                                    <div class="form_control required icon px_2 ">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                alt="calendar"></span> -->
+                                    </div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="form_control required icon px_2 w_50">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                alt="calendar"></span> -->
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+                                <div class="w_15 row_th">
+
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row bg_red checked_bg">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td"><input type="checkbox" checked></div>
+                                    <div class="custom_td pl_0">Carmelita Marsham <br> 123456/G037577</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center w_20">20</div>
+                                    <div class="custom_td pl_0 text-center w_20">30</div>
+                                    <div class="form_control required icon px_2 ">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                    alt="calendar"></span> -->
+                                    </div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="form_control required icon px_2 w_50">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                    alt="calendar"></span> -->
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+                                <div class="w_15 row_th">
+
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row bg_red">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td"><input type="checkbox"></div>
+                                    <div class="custom_td pl_0">Carmelita Marsham <br> 123456/G037577</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center w_20">20</div>
+                                    <div class="custom_td pl_0 text-center w_20">30</div>
+                                    <div class="form_control required icon px_2 ">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                        alt="calendar"></span> -->
+                                    </div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="form_control required icon px_2 w_50">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                        alt="calendar"></span> -->
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+                                <div class="w_15 row_th">
+
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td"><input type="checkbox"></div>
+                                    <div class="custom_td pl_0">Carmelita Marsham <br> 123456/G037577</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center w_20">20</div>
+                                    <div class="custom_td pl_0 text-center w_20">30</div>
+                                    <div class="form_control required icon px_2 ">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                            alt="calendar"></span> -->
+                                    </div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="form_control required icon px_2 w_50">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                            alt="calendar"></span> -->
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+                                <div class="w_15 row_th">
+
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td"><input type="checkbox"></div>
+                                    <div class="custom_td pl_0">Carmelita Marsham <br> 123456/G037577</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center w_20">20</div>
+                                    <div class="custom_td pl_0 text-center w_20">30</div>
+                                    <div class="form_control required icon px_2 ">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                                alt="calendar"></span> -->
+                                    </div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="form_control required icon px_2 w_50">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                                alt="calendar"></span> -->
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+                                <div class="w_15 row_th">
+
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td"><input type="checkbox"></div>
+                                    <div class="custom_td pl_0">Carmelita Marsham <br> 123456/G037577</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center w_20">20</div>
+                                    <div class="custom_td pl_0 text-center w_20">30</div>
+                                    <div class="form_control required icon px_2 ">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                                    alt="calendar"></span> -->
+                                    </div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="form_control required icon px_2 w_50">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                                    alt="calendar"></span> -->
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+                                <div class="w_15 row_th">
+
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td"><input type="checkbox"></div>
+                                    <div class="custom_td pl_0">Carmelita Marsham <br> 123456/G037577</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center w_20">20</div>
+                                    <div class="custom_td pl_0 text-center w_20">30</div>
+                                    <div class="form_control required icon px_2 ">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                                        alt="calendar"></span> -->
+                                    </div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="form_control required icon px_2 w_50">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                                        alt="calendar"></span> -->
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+                                <div class="w_15 row_th">
+
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td"><input type="checkbox"></div>
+                                    <div class="custom_td pl_0">Carmelita Marsham <br> 123456/G037577</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center w_20">20</div>
+                                    <div class="custom_td pl_0 text-center w_20">30</div>
+                                    <div class="form_control required icon px_2 ">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                                            alt="calendar"></span> -->
+                                    </div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="form_control required icon px_2 w_50">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                                            alt="calendar"></span> -->
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+                                <div class="w_15 row_th">
+
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td"><input type="checkbox"></div>
+                                    <div class="custom_td pl_0">Carmelita Marsham <br> 123456/G037577</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center w_20">20</div>
+                                    <div class="custom_td pl_0 text-center w_20">30</div>
+                                    <div class="form_control required icon px_2 ">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                                                alt="calendar"></span> -->
+                                    </div>
+                                </div>
+                                <div class="w_20 row_th">
+                                    <div class="form_control required icon px_2 w_50">
+                                        <input type="text" placeholder="From Date" value="02/04/2020" class="px_1" />
+                                        <!-- <span class="icon_img"><img src="./images/icons/ic-calendar.svg"
+                                                                                alt="calendar"></span> -->
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon px_2 w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+                                <div class="w_15 row_th">
+
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="20" class="px_1" />
+                                    </div>
+                                    <div class="form_control required icon w_25">
+                                        <input type="text" value="30" class="px_1" />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="btn_wrap mt_4 w_100">
+                    <div class="ml_auto w_fit_content">
+                        <button class="secondary_btn">Save As Draft</button>
+                        <button class="primary_btn ml_2">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- main wrapper -->
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+<script src="./js/script.js"></script>
+
+</html>

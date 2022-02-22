@@ -1834,6 +1834,40 @@ a.accordion-toggle .doc_arrow.color_black svg * {
 .pc_top_det_bar > .border_bottom{
   border-bottom: solid 1px #e7e7e7;
 }
+.spl_table_wrap > .custom_th{
+  width: 25%;
+  border-right: 1px solid #b7b7b7;
+}
+.custom_th_spl_header{
+  text-align: center;
+  border-bottom: 1px solid #b7b7b7;
+  padding-bottom: .5rem;
+}
+.row_th{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.row_th .custom_th{
+  color: #9b9b9b;
+  padding-bottom: 0 !important;
+}
+.row_th input{
+  text-align: center !important;
+  background-color: transparent;
+}
+.w_20{
+  width: 20% !important;
+}
+.w_25{
+  width: 25% !important;
+}
+.w_15{
+  width: 15% !important;
+}
+.w_50{
+  width: 50% !important;
+}
 @media (min-width: 1600px) {
   .main_wrapper {
     margin: 130px auto 50px !important;
