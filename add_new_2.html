@@ -1,0 +1,619 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group PO</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="./css/styleGuideOmne.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <!-- top omne bar -->
+    <div class="omne_bar">
+        <div class="custom_container">
+            <img src="./images/omne_with_tagline_rgb.png" title="omne_with_tagline_rgb" />
+        </div>
+    </div>
+    <!-- top omne bar -->
+
+    <!-- main nav bar -->
+    <div class="nav_menu">
+        <div class="custom_container">
+            <div class="row">
+                <div class="side_menu">
+                    <img src="./images/icons/ic-menu.svg" alt="ic-menu" />
+                </div>
+                <div class="tab_title text_18 font_600 p_3 ml_4 h_100">
+                    PO Extension
+                </div>
+                <div class="page_title text_16 font_500 p_3">
+                    Add New PO - Move Resources to other Fixed Price Project
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-tools.svg" alt="ic-tools" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-notification.svg" alt="ic-notification" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./images/icons/ic-login-profile-image.png" alt="ic-login-profile-image" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main nav bar -->
+
+    <!-- sidebar_left -->
+    <div class="leftSideBar pt_4 pb_4 pl_2 pr_2">
+        <div class="sideNavItems">
+            <ul>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14"><span class="pr_4"><img
+                                src="./images/icons/ic-dashboard.svg" alt="ic-dashboard" /></span>
+                        <span class="text_hid">Dashnboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14 active"><span class="pr_4"><img
+                                src="./images/icons/ic-po-extension-white.svg" alt="ic-po-extension-white" /></span>
+                        <span class="text_hid">Green Signal</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="pt_2 pb_2 pl_4 pr_4 text_14"><span class="pr_4"><img
+                                src="./images/icons/ic-hire-wf.svg" alt="ic-hire-wf" /></span>
+                        <span class="text_hid"> Hire WF</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- sidebar_left -->
+
+    <!-- main wrapper -->
+    <div class="main_wrapper">
+        <div class="group_po_wrap row add_new_po">
+            <div class="col-md-12">
+                <div class="pc_top_det_bar gp_project_table mb_4">
+                    <div class="pc_top_det p_4">
+                        <div class="form_control required icon px_2 w_20">
+                            <input type="text" placeholder="Project ID" />
+                            <span class="icon_img pr_2"><img src="./images/icons/ic-search.svg" alt="search"></span>
+                        </div>
+                        <div class="form_control required icon px_2 w_20">
+                            <input type="text" placeholder="GCI ID" />
+                            <span class="icon_img pr_2"><img src="./images/icons/ic-search.svg" alt="search"></span>
+                        </div>
+
+                    </div>
+                    <div class="p_4">
+                        <p class="mb_0 ml_auto color_danger text_14"><b>NOTE</b> : that this screen is only to be used
+                            when billing change happens in the same
+                            project. If a resource is moving from one FP project to a completely different one, then you
+                            must initiate a new FP HWF</p>
+                    </div>
+                </div>
+                <div class="gp_project_table redo_check_status po_candidate p_3 ">
+                    <div class="rcs_head d-flex align-items-center border_bottom">
+                        <h4 class="text_16 font_600 mt_0 mb_0 primary_text_color pb_3">
+                            Project Details
+                        </h4>
+                    </div>
+                    <div class="pc_top_det p_4 ">
+                        <div class="pc_det w_25">
+                            <h4 class="text_12 font_500 color_grey">Project Code</h4>
+                            <p class="text_14 font_500">COLL-0134-02242020</p>
+                        </div>
+                        <div class="pc_det w_25">
+                            <h4 class="text_12 font_500 color_grey">Description</h4>
+                            <p class="text_14 font_500">Business Administrator Services FY21</p>
+                        </div>
+                        <div class="pc_det w_25">
+                            <h4 class="text_12 font_500 color_grey">Start Date</h4>
+                            <p class="text_14 font_500">24th Feb 2020</p>
+                        </div>
+                        <div class="pc_det w_25">
+                            <h4 class="text_12 font_500 color_grey">End Date</h4>
+                            <p class="text_14 font_500">24th Feb 2020</p>
+                        </div>
+                    </div>
+                    <div class="rcs_head d-flex align-items-center">
+                        <h4 class="text_16 font_600 mt_0 mb_0 pt_3">
+                            Existing Resource Details
+                        </h4>
+                    </div>
+                    <div class="rcs_body pt_4 border_bottom pb_4">
+                        <div class="table_wrap accordion" id="accordion1">
+                            <div class="custom_tr accordion-group spl_table_wrap">
+                                <div class="custom_th w_25">
+                                    <div class="custom_th_spl_header">
+                                        Fixprice Employee info
+                                    </div>
+                                    <div class="row_th">
+                                        <div class="custom_th">
+                                            Employee ID
+                                        </div>
+                                        <div class="custom_th">
+                                            Start Date
+                                        </div>
+                                        <div class="custom_th">
+                                            End Date
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="custom_th w_25">
+                                    <div class="custom_th_spl_header">
+                                        Subcontract Info
+                                    </div>
+                                    <div class="row_th">
+                                        <div class="custom_th">Subcontract
+                                        </div>
+                                        <div class="custom_th">
+                                            Start Date
+                                        </div>
+                                        <div class="custom_th">
+                                            End Date
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="custom_th w_25">
+                                    <div class="custom_th_spl_header">
+                                        Pay Rate
+                                    </div>
+                                    <div class="row_th">
+                                        <div class="custom_th">
+                                            Eff. Date
+                                        </div>
+                                        <div class="custom_th">
+                                            ST
+                                        </div>
+                                        <div class="custom_th">
+                                            OT
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="custom_th w_25">
+                                    <div class="custom_th_spl_header">
+                                        Internal Bill Rate
+                                    </div>
+                                    <div class="row_th">
+                                        <div class="custom_th">
+                                            ST
+                                        </div>
+                                        <div class="custom_th">
+                                            OT
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">G136446</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center">20</div>
+                                    <div class="custom_td pl_0 text-center">30</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0 text-center ">20</div>
+                                    <div class="custom_td pl_0 text-center ">30</div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">G136446</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center">20</div>
+                                    <div class="custom_td pl_0 text-center">30</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0 text-center ">20</div>
+                                    <div class="custom_td pl_0 text-center ">30</div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">G136446</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center">20</div>
+                                    <div class="custom_td pl_0 text-center">30</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0 text-center ">20</div>
+                                    <div class="custom_td pl_0 text-center ">30</div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">G136446</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center">20</div>
+                                    <div class="custom_td pl_0 text-center">30</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0 text-center ">20</div>
+                                    <div class="custom_td pl_0 text-center ">30</div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">G136446</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center">20</div>
+                                    <div class="custom_td pl_0 text-center">30</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0 text-center ">20</div>
+                                    <div class="custom_td pl_0 text-center ">30</div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">G136446</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center">20</div>
+                                    <div class="custom_td pl_0 text-center">30</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0 text-center ">20</div>
+                                    <div class="custom_td pl_0 text-center ">30</div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">G136446</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center">20</div>
+                                    <div class="custom_td pl_0 text-center">30</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0 text-center ">20</div>
+                                    <div class="custom_td pl_0 text-center ">30</div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">G136446</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center">20</div>
+                                    <div class="custom_td pl_0 text-center">30</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0 text-center ">20</div>
+                                    <div class="custom_td pl_0 text-center ">30</div>
+                                </div>
+
+                            </div>
+                            <div class="custom_tr row">
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">G136446</div>
+                                    <div class="custom_td pl_0">02/02/2019</div>
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">532890</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                    <div class="custom_td pl_0 text-center">05/04/2021</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0">02/04/2020</div>
+                                    <div class="custom_td pl_0 text-center">20</div>
+                                    <div class="custom_td pl_0 text-center">30</div>
+                                </div>
+                                <div class="w_25 row_th">
+                                    <div class="custom_td pl_0 text-center ">20</div>
+                                    <div class="custom_td pl_0 text-center ">30</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rcs_head d-flex align-items-center border_bottom">
+                        <h4 class="text_16 font_600 mt_0 mb_0 primary_text_color pt_3 pb_3">
+                            Move Resources to different Fixed Price Project
+                        </h4>
+                    </div>
+                    <div class="add_new_move_wrap py_2">
+                        <div class="add_new_top d-flex align-items-center">
+                            <div class="form_control">
+                                <span class="text_10">From</span>
+                                <p class="text_12 pt_2">Amdocs-AT&T AM048 BOT Implementation Project</p>
+                            </div>
+                            <div class="arrow_wrap">
+                                <img src="./images/icons/new_arrow.svg" alt="new_arrow" class="pt_3" />
+                            </div>
+                            <div class="form_control required icon">
+                                <label for="">TO <span>*</span></label>
+                                <input type="text" placeholder="Search by Project Name /Project ID" />
+                                <span class="icon_img pr_2"><img src="./images/icons/ic-search.svg" alt="search"></span>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="left_move_">
+                                <div class="left_wrap_head p_2 border_bottom">
+                                    <h4 class="text_16 font_600 mt_0 mb_0 primary_text_color">Resources to move</h4>
+                                </div>
+                                <div class="left_wrap_desc p_2">
+                                    <div class="left_wrap_row_ d-flex pb_2">
+                                        <p class="mb_0 ml_auto text_14 w_50">22121/G22121</p>
+                                        <p class="mb_0 ml_auto text_14 w_50">William Lawrence</p>
+                                    </div>
+                                    <div class="left_wrap_row_ d-flex pb_2">
+                                        <p class="mb_0 ml_auto text_14 w_50">22121/G22121</p>
+                                        <p class="mb_0 ml_auto text_14 w_50">William Lawrence</p>
+                                    </div>
+                                    <div class="left_wrap_row_ d-flex pb_2">
+                                        <p class="mb_0 ml_auto text_14 w_50">24735/G24735</p>
+                                        <p class="mb_0 ml_auto text_14 w_50">Wesley Johnson</p>
+                                    </div>
+                                    <div class="left_wrap_row_ d-flex pb_2">
+                                        <p class="mb_0 ml_auto text_14 w_50">24735/G24735</p>
+                                        <p class="mb_0 ml_auto text_14 w_50">Wesley Johnson</p>
+                                    </div>
+                                    <div class="left_wrap_row_ d-flex pb_2">
+                                        <p class="mb_0 ml_auto text_14 w_50">24735/G24735</p>
+                                        <p class="mb_0 ml_auto text_14 w_50">Wesley Johnson</p>
+                                    </div>
+                                    <div class="left_wrap_row_ d-flex pb_2">
+                                        <p class="mb_0 ml_auto text_14 w_50">22121/G22121</p>
+                                        <p class="mb_0 ml_auto text_14 w_50">William Lawrence</p>
+                                    </div>
+                                    <div class="left_wrap_row_ d-flex pb_2">
+                                        <p class="mb_0 ml_auto text_14 w_50">22121/G22121</p>
+                                        <p class="mb_0 ml_auto text_14 w_50">William Lawrence</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line_"></div>
+                            <div class="right_move_">
+                                <div class="right_wrap_tab">
+                                    <ul>
+                                        <li>
+                                            <a href="">PO Details</a>
+                                        </li>
+                                        <li class="active">
+                                            <a href="">AP Information</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="right_wrap_tab_content">
+                                    <div class="po_details_">
+                                        <div class="row m_0 p_2">
+                                            <div class="col-sm-6 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">Send Invoices to</label>
+                                                    <input type="text" placeholder="Invoice to" required />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                            </div>
+                                            <div class="col-sm-4 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">Work Number</label>
+                                                    <input type="text" placeholder="+1 (XXX) XXX-XXXX x XXX" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">Mobile Number</label>
+                                                    <input type="text" placeholder="+1 (XXX) XXX-XXXX" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">Fax Number</label>
+                                                    <input type="text" placeholder="+1 (XXX) XXX-XXXX" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">Pager Number</label>
+                                                    <input type="text" placeholder="+1 (XXX) XXX-XXXX" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-8 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">Email ID</label>
+                                                    <input type="text" placeholder="Target Email IDs" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">Address 1</label>
+                                                    <input type="text" placeholder="Address 1" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">Address 2</label>
+                                                    <input type="text" placeholder="Address 2" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">City</label>
+                                                    <input type="text" placeholder="City" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">State</label>
+                                                    <input type="text" placeholder="State" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">Zip</label>
+                                                    <input type="text" placeholder="Zip" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">Invoice format</label>
+                                                    <input type="text" placeholder="Invoice format" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">Invoice Terms</label>
+                                                    <input type="text" placeholder="Invoice Terms" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">Payment Terms</label>
+                                                    <input type="text" placeholder="Payment Terms" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-8 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">AP Contact Person</label>
+                                                    <input type="text" placeholder="AP Contact Person" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 px_2"></div>
+                                            <div class="col-sm-4 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">AP Contact Phone</label>
+                                                    <input type="text" placeholder="+1 (XXX) XXX-XXXX x XXX" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">AP Contact Mobile</label>
+                                                    <input type="text" placeholder="+1 (XXX) XXX-XXXX x XXX" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">AP Contact Fax</label>
+                                                    <input type="text" placeholder="+1 (XXX) XXX-XXXX x XXX" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-8 px_2">
+                                                <div class="form_control required">
+                                                    <label for="">AP Contact Email</label>
+                                                    <input type="text" placeholder="Email IDs" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn_wrap mt_4 w_100 mb_4 pr_2">
+                                    <div class="ml_auto w_fit_content">
+                                        <button class="secondary_btn">Save As Draft</button>
+                                        <button class="primary_btn ml_2">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- main wrapper -->
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+<script src="./js/script.js"></script>
+
+</html>
