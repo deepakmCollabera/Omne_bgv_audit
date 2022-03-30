@@ -1930,6 +1930,52 @@ a.accordion-toggle .doc_arrow.color_black svg * {
   width: 5%;
   text-align: center
 }
+
+
+/* updated to tabs */
+
+.tabs_wrap{
+  padding-top: 1rem;
+  display: flex;
+  width: 100%;
+}
+.tabs_head{
+  width: 20%;
+    padding-right: .5rem;
+}
+.tabs_head ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.tabs_head ul li{
+  border: 1px solid #b7b7b7;
+  padding: .7rem 1rem;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  color: #57a9fe; 
+  cursor: pointer;
+}
+.tabs_head ul li.active{
+  background-color: #57a9fe;
+  color: #ffffff;
+  font-weight: 500;
+  border: 1px solid #57a9fe;
+}
+.tabs_body{
+  width: 80%;
+  padding-left: .5rem;
+}
+.tab_content{
+  display: none;
+}
+.tab_content .chart_wrap_body img{
+  width: 75%;
+}
+.tab_content.active{
+  display: block;
+}
 @media (min-width: 1600px) {
   .main_wrapper {
     margin: 130px auto 50px !important;

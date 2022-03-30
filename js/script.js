@@ -85,6 +85,15 @@ $(document).ready(function(){
   $(".advance_search_close").click(function(){
     $(".advance_search_wrap").removeClass("active");
   })
+
+  // tabs updated
+  $(".tabs_link").on("click", function(){
+    $(".tabs_link").removeClass("active");
+    $(".tab_content").removeClass("active");
+    $(this).addClass("active");
+    var id = $(this).attr("data-target_tab");
+    $("#"+id).addClass("active");
+  })
 })
 $(function() {
   $('.box').matchHeight();
