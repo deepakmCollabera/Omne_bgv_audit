@@ -48,6 +48,9 @@ button {
 .no_bg {
   background-color: transparent;
 }
+.no_border * {
+  border: none !important;
+}
 /* omen bar */
 .omne_bar {
   position: fixed;
@@ -610,6 +613,14 @@ a.accordion-toggle .doc_arrow {
 }
 .notes_modal .custom_modal_wrap {
   width: 45%;
+}
+.add_cons_bgv .form_control textarea {
+  font-size: 14px;
+  color: #4a4a4a;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #e7e7e7;
+  resize: none
 }
 .custom_modal_body .form_control textarea {
   font-size: 14px;
@@ -1822,6 +1833,11 @@ a.accordion-toggle .doc_arrow.color_black svg * {
 .pc_modal .table_wrap {
   max-height: 160px;
   overflow-y: auto;
+}
+.grey_btn{
+  background-color: #b7b7b7;
+  border: none;
+  color: #fff;
 }
 .group_po_wrap .grey_btn{
   background-color: #b7b7b7;
