@@ -470,6 +470,7 @@
                                     </div>
                                 </li>
                                 <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                                <li class="modal_open" data-modalName="email_notification"><span><img src="./images/icons/ic-notification-2.svg" alt="ic-notification-2.svg" /></span></li>
                             </ul>
                         </div>
                     </div>
@@ -581,6 +582,7 @@
                                     </div>
                                 </li>
                                 <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                                <li class="modal_open" data-modalName="email_notification"><span><img src="./images/icons/ic-notification-2.svg" alt="ic-notification-2.svg" /></span></li>
                             </ul>
                         </div>
                     </div>
@@ -659,6 +661,7 @@
                                     </div>
                                 </li>
                                 <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                                <li class="modal_open" data-modalName="email_notification"><span><img src="./images/icons/ic-notification-2.svg" alt="ic-notification-2.svg" /></span></li>
                             </ul>
                         </div>
                     </div>
@@ -737,6 +740,7 @@
                                     </div>
                                 </li>
                                 <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                                <li class="modal_open" data-modalName="email_notification"><span><img src="./images/icons/ic-notification-2.svg" alt="ic-notification-2.svg" /></span></li>
                             </ul>
                         </div>
                     </div>
@@ -815,6 +819,7 @@
                                     </div>
                                 </li>
                                 <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                                <li class="modal_open" data-modalName="email_notification"><span><img src="./images/icons/ic-notification-2.svg" alt="ic-notification-2.svg" /></span></li>
                             </ul>
                         </div>
                     </div>
@@ -893,6 +898,7 @@
                                     </div>
                                 </li>
                                 <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                                <li class="modal_open" data-modalName="email_notification"><span><img src="./images/icons/ic-notification-2.svg" alt="ic-notification-2.svg" /></span></li>
                             </ul>
                         </div>
                     </div>
@@ -971,6 +977,7 @@
                                     </div>
                                 </li>
                                 <li><span><img src="./images/icons/ic-send-offer.svg" alt="ic-send-offer" /></span></li>
+                                <li class="modal_open" data-modalName="email_notification"><span><img src="./images/icons/ic-notification-2.svg" alt="ic-notification-2.svg" /></span></li>
                             </ul>
                         </div>
                     </div>
@@ -981,6 +988,62 @@
         </div>
     </div>
     <!-- main wrapper -->
+
+     <!-- modal -->
+  <div class="custom_modal notes_modal" id="email_notification">
+    <div class="custom_modal_wrap">
+      <div class="custom_modal_header">
+        <h5 class="modal-title">Email Notification</h5>
+        <button class="close">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+              <defs>
+                  <path id="x997k9vwqa" d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7z"></path>
+              </defs>
+              <g fill="none" fill-rule="evenodd">
+                  <g>
+                      <g>
+                          <g>
+                              <g transform="translate(-1146 -528) translate(496 505) translate(1 17) translate(649 6)">
+                                  <use fill="#4A4A4A" xlink:href="#x997k9vwqa"></use>
+                              </g>
+                          </g>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+          </span>
+        </button>
+      </div>
+      <div class="custom_modal_body">
+        <div class="form_control required mb-3 dropdown">
+          <label for="">Ignore Reason <span>*</span></label>
+          <select name="" id="">
+            <option value="">Reason</option>
+            <option value="">Reason 1</option>
+          </select>
+        </div>
+        <div class="form_control required mb-3">
+          <label for="">Ignore Comments <span>*</span></label>
+          <textarea rows="4" placeholder="Comments"></textarea>
+        </div>
+        <div class="form_control d-flex">
+            <p class="text_12 m_0 pr_2">Stop sending email notification?</p>
+            <div class="switch-field">
+                <input type="radio" id="no_7" name="switch-5" value="no" checked="">
+                <label for="no_7" class="font_400 text_10">No</label>
+                <input type="radio" id="yes_7" name="switch-5" value="yes" >
+                <label for="yes_7" class="font_400 text_10">Yes</label>
+            </div>
+        </div>
+        <div class="confirmation_btn">
+                <button class="secondary_btn text_14 font_500 no_border grey_btn mr_2">Cancel</button>
+          <button class="primary_btn ml_2">Save</button>
+        </div>
+      </div>
+      </div>
+  </div>
+  <!-- modal -->
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>

@@ -1298,7 +1298,7 @@ a.accordion-toggle .doc_arrow.color_black svg * {
 /* slider */
 .slider_left {
   position: absolute;
-  right: -110px;
+  right: -118px;
   width: 150px;
   transition: 1s;
 }
@@ -1622,14 +1622,14 @@ a.accordion-toggle .doc_arrow.color_black svg * {
   margin-right: 0;
 }
 .reactive_po_ .slider_left {
-  right: -130px;
+  right: -118px;
 }
 .reactive_po_ .slider_left.active {
   right: 0;
 }
-.reactive_po_ .slider_left ul li:first-child {
+/* .reactive_po_ .slider_left ul li:first-child {
   left: -9px;
-}
+} */
 
 /* esign dashboard */
 .esign_reject {
@@ -1723,9 +1723,9 @@ a.accordion-toggle .doc_arrow.color_black svg * {
   transform: rotate(270deg);
   left: -10px;
 }
-.em_detail.reactive_po_ .slider_left ul li:first-child {
+/* .em_detail.reactive_po_ .slider_left ul li:first-child {
   left: -14px;
-}
+} */
 
 .gp_project_details {
   border-radius: 4px;
@@ -1835,9 +1835,9 @@ a.accordion-toggle .doc_arrow.color_black svg * {
   overflow-y: auto;
 }
 .grey_btn{
-  background-color: #b7b7b7;
-  border: none;
-  color: #fff;
+  background-color: #b7b7b7 !important;
+  border: none !important;
+  color: #fff !important;
 }
 .group_po_wrap .grey_btn{
   background-color: #b7b7b7;
